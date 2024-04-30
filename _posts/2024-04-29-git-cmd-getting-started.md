@@ -46,4 +46,4 @@ tags: [git,bash]
 
 ## Rename or Delete using Git
 * `git mv file file2` --rename a file
-* `git rm file` --remove a file
+* `git rm file` --remove a fil
