@@ -1,18 +1,17 @@
 ---
 title: Git Commands Quick Start
+description: Quick Start for Git commands
 date: 2024-05-04 08:57:00 -0600
 categories: [Command Line,DevOPs]
 tags: [git,bash]
 ---
-
-# GIT > Getting Starting
-> Quick Start for Git commands
 
 ### Install (MacOS)
 * `brew install git` -- install Git
 * `echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc` -- add Homebrew to the PATH
 
 ---
+
 ### Configure Git Environment
 Set configurations that you want to apply to all GIT repositories. To simplify setup and have consistent behavior across projects
 * `git config --global user.name "<username>"` -- set global username
@@ -20,6 +19,7 @@ Set configurations that you want to apply to all GIT repositories. To simplify s
 * `git config --edit --global` -- edit global Git configuration
 
 ---
+
 ### Add a New Repository
 1. **Initialize a New Repository:**
    - If you want to create a new repository from scratch:
@@ -51,7 +51,9 @@ Set configurations that you want to apply to all GIT repositories. To simplify s
      git status
      ```
      This command shows which files are staged, unstaged, or untracked.
+     
 ---
+
 ### Download a Repository
 1. `git clone https://github.com/libgit2/libgit2` --downloads a copy of the files
 2. `git status` --view status of the repository
