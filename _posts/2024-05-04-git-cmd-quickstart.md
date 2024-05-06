@@ -1,5 +1,5 @@
 ---
-title: Git Commands Quick Start
+title: Quick Start - Git Commands
 description: Quick Start for Git commands
 date: 2024-05-04 08:57:00 -0600
 categories: [Command Line,DevOPs]
@@ -51,7 +51,7 @@ Set configurations that you want to apply to all GIT repositories. To simplify s
      git status
      ```
      This command shows which files are staged, unstaged, or untracked.
-     
+
 ---
 
 ### Download a Repository

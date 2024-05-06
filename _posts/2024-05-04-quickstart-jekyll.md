@@ -1,5 +1,5 @@
 ---
-title: Jekyll Commands Quick Start
+title: Quick Start - Jekyll Commands
 description: This directory contains the dotfiles for my system
 date: 2024-05-04 09:40:00 -0600
 categories: [Command Line,Linux,Backups]

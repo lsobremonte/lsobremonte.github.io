@@ -1,10 +1,13 @@
 ---
-title: My Dotfiles
-description: This directory contains the dotfiles for my system
+title: Quick Start - Stow
+description: using GNU Stow to manage dotfiles
 date: 2024-05-04 09:35:00 -0600
 categories: [Command Line,Linux,Backups]
 tags: [stow,bash]
 ---
+
+## Overview
+`Stow` is a symlink farm manager which takes distinct packages of software and/or data located in separate directories on the filesystem, and makes them appear to be installed in the same place. This is particularly useful for managing `dotfiles` in a version-controlled repository.
 
 ---
 ## Requirements
