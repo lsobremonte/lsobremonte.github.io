@@ -1,84 +1,64 @@
----
-title: Quick Start - Stow
-description: using GNU Stow to manage dotfiles
-date: 2024-05-04 09:35:00 -0600
-categories: [Command Line,Linux,Backups]
-tags: [stow,bash]
----
-
 ## Overview
-`Stow` is a symlink farm manager which takes distinct packages of software and/or data located in separate directories on the filesystem, and makes them appear to be installed in the same place. This is particularly useful for managing `dotfiles` in a version-controlled repository.
 
----
-## Requirements
-Ensure you have both Git and Stow  installed first
-- `brew list git` -- check if git is installed
-- `brew list stow` -- check if stow is installed
+`GNU Stow` helps you backup your Dotfiles (configuration files). So when you "stow" a file, it will create a `symlink` between your file and an identical file in our home directory.
 
 ---
 ## Installation
-First, check out the dotfiles repo in your $HOME directory using git
-```bash
-$ git clone git@github.com/dreamsofautonomy/dotfiles.git
-$ cd dotfiles
-```
 
-then use GNU stow to create symlinks
+Ensure you have both Git and Stow installed first
+- `brew list git` -- check if git is installed
+- `brew list stow` -- check if stow is installed
+
+
 ```bash
-$ stow .
+brew list git # check if git is installed
+brew list stow # check if stow is installed
+cd ~
+mkdir dotfiles # Create a directory to store dotfiles
+
 ```
+![StowFlowchart](/assets/GNU-Stow-flowchart.png)
+
+
 ---
+
 ## Usage
-### Add a new dotfile
-This example adds your home folder's .zshrc file to the dotfiles repo
+
+### Add a dotfile
+This works for both hidden file and folder
+
 ```bash
 cd ~/dotfiles
-cp ~/.zshrc .
-mv ~/.zshrc ~/.zshrc.bak # backup the original file
+mkdir ~/dotfiles/zsh # create folder
+mv ~/.zshrc ~/dotfiles/zsh # move dotfile into dotfile folder
+stow zsh # create a symlink
+ls -ld ~/.zshrc # check for new symlink
 ```
-### Add a new folder
-This example adds your home folder's .config folder to the dotfiles repo
+
+### GIT version Control
 ```bash
-mkdir .oh-my-zsh
-cp -r ~/.oh_my-zsh/ .oh-my-zsh
-mv ~/.oh_my-zsh/ ~/.oh_my_zsh.bak
+git add .
+git commit -m "Manage nvim config with stow"
+git push # upload local repository content to remote repository
 ```
-### Restore folders from git
+
+### Restore folders from git (untested)
+
 This shows how to restore folders from git using stow on a fresh machine
+
 ```bash
-stow -R .
+git clone your-repository-url ~/dotfiles # download
+cd ~/dotfiles
+stow folder-name  # Replace 'folder-name' with the name of the folder containing your config files, e.g., zsh, oh-my-zsh, etc.
+
 ```
+
 
 ---
-## Troubleshooting
-### Confirm if symlink is in home folder
-Make sure the symlink was created in your home folder.   Symlink should point to the dotfiles repo
-```bash
-cd ~
-ls -la .zshrc
-```
 
-### Check if a symlink is a folder
-To check if a symlink is a folder, you can use the `-d` flag with the `ls` command. Here's an example:
-```bash
-ls -ld ~/.oh-my-zsh
-```
-
----
 ## List of hidden User configuration files for stow backup and restore
+
 * `.zshrc `- Zsh configurations (file).
-* `.ssh` - SSH keys and configuration (directory).
-* `.vimrc` - Configuration for Vim (file).
-* `.gitconfig` - Global Git configuration settings (file).
 * `.oh-my-zsh` - Configuration for Oh My Zsh (directory).
-* `.config` - Configuration files for various applications (directory).
-
-## Maybe add these in the future
-* `.ipython`- Configuration for IPython interactive shell (directory).
-* `.jupyter`- Configuration for Jupyter (directory).
-
----
-## Resources
-* [Manage dotfiles with GNU Stow](https://dr563105.github.io/blog/manage-dotfiles-with-gnu-stow/)
-* [Stow - Official Documentation](https://www.gnu.org/software/stow/)
-* [YT - Stow - Manage dotfiles](https://www.youtube.com/watch?v=y6XCebnB9gs)
+* `.gitconfig` - Global Git configuration settings (file).
+*  `.vimrc` - Configuration for Vim (file).
