@@ -5,6 +5,8 @@ date: 2024-05-04 09:40:00 -0600
 categories: [Command Line,Linux,Backups]
 tags: [stow,bash]
 ---
+![Cover Page](/assets/images/cover-quickstart-jekyll.png)
+---
 
 ### GIT Commands
 For uploading changes made locally
@@ -24,7 +26,7 @@ bundle exec jekyll s
 ### Post Images
 upload files into assets folder and reference them in the post like this
 ```bash
-![StowFlowchart](/assets/GNU-Stow-flowchart.png)
+![Cover Page](/assets/images/cover01.png)
 ```
 
 #### Resource

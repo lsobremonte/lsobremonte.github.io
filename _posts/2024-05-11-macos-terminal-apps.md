@@ -8,6 +8,7 @@ categories:[apps]
 tags:[cmd, macos, brew]
 
 ---
+![Cover Page](/assets/images/cover-terminal.png)
 ## Create Table of Contents
 
 - [CLI Tools to try](#cli-tools-to-try)

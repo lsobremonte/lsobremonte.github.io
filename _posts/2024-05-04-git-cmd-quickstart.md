@@ -5,7 +5,7 @@ date: 2024-05-04 08:57:00 -0600
 categories: [Command Line,DevOPs]
 tags: [git,bash]
 ---
-
+![Cover Page](/assets/images/cover-git.png)
 ### Install (MacOS)
 * `brew install git` -- install Git
 * `echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc` -- add Homebrew to the PATH
