@@ -5,11 +5,6 @@
 ---
 ## Installation
 
-Ensure you have both Git and Stow installed first
-- `brew list git` -- check if git is installed
-- `brew list stow` -- check if stow is installed
-
-
 ```bash
 brew list git # check if git is installed
 brew list stow # check if stow is installed
@@ -17,7 +12,7 @@ cd ~
 mkdir dotfiles # Create a directory to store dotfiles
 
 ```
-![StowFlowchart](/assets/GNU-Stow-flowchart.png)
+
 
 
 ---
@@ -50,8 +45,14 @@ This shows how to restore folders from git using stow on a fresh machine
 git clone your-repository-url ~/dotfiles # download
 cd ~/dotfiles
 stow folder-name  # Replace 'folder-name' with the name of the folder containing your config files, e.g., zsh, oh-my-zsh, etc.
-
 ```
+
+### Clean up Symlinks from home directory (untested)
+```bash
+stow -D folder-name # Remove symlink
+```
+
+
 
 
 ---

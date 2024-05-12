@@ -20,3 +20,9 @@ Git push
 ```bash
 bundle exec jekyll s
 ```
+
+### Post Images
+upload files into assets folder and reference them in the post like this
+```bash
+![StowFlowchart](/assets/GNU-Stow-flowchart.png)
+```

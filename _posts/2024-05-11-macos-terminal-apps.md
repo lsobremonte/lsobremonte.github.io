@@ -31,6 +31,7 @@ tags:[cmd, macos, brew]
 - [Auto Suggestions](#auto-suggestions)
 
 ---
+
 ### CLI Tools to try
 - [ ] [7 Amazing CLI Tools You Need To Try](https://www.youtube.com/watch?v=mmqDYw9C30I&list=WL&index=2&t=573s)
 - [ ] Github Copilot command line
