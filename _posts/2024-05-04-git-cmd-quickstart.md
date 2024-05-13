@@ -5,12 +5,14 @@ date: 2024-05-04 08:57:00 -0600
 categories: [Command Line,DevOPs]
 tags: [git,bash]
 ---
-![Cover Page](/assets/img/favicons//cover-git.png)
+![Cover Page](/assets/img/covers/cover-git.png)
 ### Install (MacOS)
 * `brew install git` -- install Git
 * `echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc` -- add Homebrew to the PATH
 
 ---
+[Git Commands]({% 2024-04-29-git-cmd.md %})
+
 
 ### Configure Git Environment
 Set configurations that you want to apply to all GIT repositories. To simplify setup and have consistent behavior across projects

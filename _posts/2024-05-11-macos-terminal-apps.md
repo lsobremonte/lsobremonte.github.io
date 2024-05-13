@@ -8,7 +8,7 @@ categories:[apps]
 tags:[cmd, macos, brew]
 
 ---
-![Cover Page](/assets/images/cover-terminal.png)
+![Cover Page](/assets/images/covers/cover-terminal.png)
 ## Create Table of Contents
 
 - [CLI Tools to try](#cli-tools-to-try)
@@ -152,6 +152,6 @@ brew install zsh-autosuggestions # Install
 - `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` - Add plugin to ~/.zshrc file: plugins=(zsh-autosuggestions)
 
 
-![Add plugin](/assets/example-add-plugin-zshrc.png)
+![Add plugin](/assets/content/example-add-plugin-zshrc.png)
 
-![StowFlowchart](/assets/GNU-Stow-flowchart.png)
+

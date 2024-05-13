@@ -5,7 +5,7 @@ date: 2024-05-04 09:40:00 -0600
 categories: [Command Line,Linux,Backups]
 tags: [stow,bash]
 ---
-![Cover Page](/assets/images/cover-quickstart-jekyll.png)
+![Cover Page](/assets/images/covers/cover-quickstart-jekyll.png)
 ---
 
 ### GIT Commands
@@ -35,3 +35,4 @@ upload files into assets folder and reference them in the post like this
 - [YT Meet Jekyll - The Static Site Generator](https://www.youtube.com/watch?v=F8iOU1ci19Q)
 - [Reference Blog](https://technotim.live)
 - [Chirpy Tutorial](https://github.com/cotes2020/jekyll-theme-chirpy/wiki)
+- [Adding Favicons](https://peateasea.de/add-favicon-to-mm-jekyll-site/)
