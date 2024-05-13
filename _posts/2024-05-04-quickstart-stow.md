@@ -16,7 +16,7 @@ image:
 `GNU Stow` helps you backup your Dotfiles (configuration files). So when you "stow" a file, it will create a `symlink` between your file and an identical file in our home directory.
 
 ---
-![Cover Page](/assets/images/covers/cover-dotfiles.png)
+
 ## Installation
 
 ```bash
