@@ -17,7 +17,7 @@ image:
 * `echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc` -- add Homebrew to the PATH
 
 ---
-[Git Commands]({% 2024-04-29-git-cmd.md %})
+
 
 
 ### Configure Git Environment
