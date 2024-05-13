@@ -12,7 +12,7 @@ image:
 
 ---
 
-[More GIT Commands]({% link _posts/2024-04-29-git-cmd.md %})
+
 
 ### Install (MacOS)
 * `brew install git` -- install Git
