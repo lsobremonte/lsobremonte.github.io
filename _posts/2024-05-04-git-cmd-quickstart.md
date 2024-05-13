@@ -1,13 +1,15 @@
 ---
+
 title: Quick Start - Git Commands
 description: Quick Start for Git commands
 date: 2024-05-04 08:57:00 -0600
-categories: [Command Line,DevOPs]
-tags: [git,bash]
+categories: [cmd, devops]
+tags: [git, bash]
 image:
   path: /assets/img/covers/cover-git.png
   thumbnail: /assets/img/covers/cover-git.png
   alt: "Git"
+
 ---
 
 ### Install (MacOS)

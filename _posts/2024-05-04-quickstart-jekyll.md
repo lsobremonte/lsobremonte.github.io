@@ -1,4 +1,5 @@
 ---
+
 title: Quick Start - Jekyll Commands
 description: This directory contains the dotfiles for my system
 date: 2024-05-04 09:40:00 -0600
@@ -8,6 +9,7 @@ image:
     path: /assets/images/covers/cover-quickstart-jekyll.png
     thumbnail: /assets/images/covers/cover-quickstart-jekyll.png
     alt: "Jekyll"
+
 ---
 
 

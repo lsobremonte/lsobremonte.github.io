@@ -1,4 +1,5 @@
 ---
+
 title: Quickstart - Stow
 description: This directory contains the dotfiles for my system
 date: 2024-05-04 21:30:00 -0600
