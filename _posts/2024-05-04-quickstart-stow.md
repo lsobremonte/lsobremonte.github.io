@@ -16,7 +16,6 @@ image:
 
 `GNU Stow` helps you backup your Dotfiles (configuration files). So when you "stow" a file, it will create a `symlink` between your file and an identical file in our home directory.
 
----
 
 ## Installation
 
@@ -25,12 +24,7 @@ brew list git # check if git is installed
 brew list stow # check if stow is installed
 cd ~
 mkdir dotfiles # Create a directory to store dotfiles
-
 ```
-
-
-
----
 
 ## Usage
 
@@ -67,12 +61,7 @@ stow folder-name  # Replace 'folder-name' with the name of the folder containing
 stow -D folder-name # Remove symlink
 ```
 
-
-
-
----
-
-## List of hidden User configuration files for stow backup and restore
+## List of User configuration files for backup
 
 * `.zshrc `- Zsh configurations (file).
 * `.oh-my-zsh` - Configuration for Oh My Zsh (directory).

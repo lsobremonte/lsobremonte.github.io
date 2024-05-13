@@ -2,7 +2,7 @@
 
 title: MacOS Terminal Apps
 description: a list of mac OS terminal apps
-date: 2024-05-04 09:35:00 -0600
+date: 2024-05-11 09:35:00 -0600
 categories: [apps]
 tags: [cmd, macos, brew]
 image:
