@@ -155,4 +155,4 @@ brew install zsh-autosuggestions # Install
 - `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` - Add plugin to ~/.zshrc file: plugins=(zsh-autosuggestions)
 
 
-![Add plugin](/assets/content/example-add-plugin-zshrc.png)
+![Add plugin](/assets/images/content/example-add-plugin-zshrc.png)

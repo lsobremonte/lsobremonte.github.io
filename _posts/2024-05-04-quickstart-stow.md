@@ -6,8 +6,8 @@ date: 2024-05-04 21:30:00 -0600
 categories: [cmd,devops,backups,linux]
 tags: [git,bash,stow]
 image:
-  path: /assets/images/covers/cover-stow.png
-  thumbnail: /assets/images/covers/cover-stow.png
+  path: /assets/images/covers/cover-dotfiles.png
+  thumbnail: /assets/images/covers/cover-dotfiles.png
   alt: "Stow"
 
 ---
