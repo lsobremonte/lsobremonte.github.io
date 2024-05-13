@@ -12,7 +12,8 @@ image:
 
 ---
 
-Overview: Quick start guide to GNU Stow
+Overview:
+Quick start guide to GNU Stow
 
 
 ## Overview

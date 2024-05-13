@@ -12,7 +12,8 @@ image:
 
 ---
 
-Overview: Learn all about maintaining Jekyll websites
+Overview:
+Learn all about maintaining Jekyll websites
 
 
 ### GIT Commands
