@@ -12,6 +12,9 @@ image:
 
 ---
 
+Overview: Guide to all the cool terminal apps you can install on MacOS
+
+
 ## Create Table of Contents
 
 - [CLI Tools to try](#cli-tools-to-try)

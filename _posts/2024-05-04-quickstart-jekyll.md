@@ -12,6 +12,8 @@ image:
 
 ---
 
+Overview: Learn all about maintaining Jekyll websites
+
 
 ### GIT Commands
 For uploading changes made locally
