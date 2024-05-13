@@ -2,11 +2,14 @@
 title: Quick Start - Jekyll Commands
 description: This directory contains the dotfiles for my system
 date: 2024-05-04 09:40:00 -0600
-categories: [Command Line,Linux,Backups]
+categories: [cmd,linux,backups]
 tags: [stow,bash]
+image:
+    path: /assets/images/covers/cover-quickstart-jekyll.png
+    thumbnail: /assets/images/covers/cover-quickstart-jekyll.png
+    alt: "Jekyll"
 ---
-![Cover Page](/assets/images/covers/cover-quickstart-jekyll.png)
----
+
 
 ### GIT Commands
 For uploading changes made locally

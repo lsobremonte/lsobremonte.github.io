@@ -1,3 +1,16 @@
+---
+title: Quickstart - Stow
+description: This directory contains the dotfiles for my system
+date: 2024-05-04 21:30:00 -0600
+categories: [cmd,devops,backups,linux]
+tags: [git,bash,stow]
+image:
+  path: /assets/images/covers/cover-stow.png
+  thumbnail: /assets/images/covers/cover-stow.png
+  alt: "Stow"
+
+--
+
  ## Overview
 
 `GNU Stow` helps you backup your Dotfiles (configuration files). So when you "stow" a file, it will create a `symlink` between your file and an identical file in our home directory.

@@ -1,4 +1,3 @@
-
 ---
 
 title: MacOS Terminal Apps
@@ -6,9 +5,13 @@ description: a list of mac OS terminal apps
 date: 2024-05-04 09:35:00 -0600
 categories:[apps]
 tags:[cmd, macos, brew]
+image:
+  path: /assets/images/covers/cover-terminal.png
+  thumbnail: /assets/images/covers/cover-terminal.png
+  alt: "Terminal Apps"
 
 ---
-![Cover Page](/assets/images/covers/cover-terminal.png)
+
 ## Create Table of Contents
 
 - [CLI Tools to try](#cli-tools-to-try)
@@ -153,5 +156,3 @@ brew install zsh-autosuggestions # Install
 
 
 ![Add plugin](/assets/content/example-add-plugin-zshrc.png)
-
-
