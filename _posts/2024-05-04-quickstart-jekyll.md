@@ -36,7 +36,8 @@ upload files into assets folder and reference them in the post like this
 
 ### Link to another page (Untested)
 ```bash
-[Git Commands]({% 2024-04-29-git-cmd.md %})
+[Git Commands]({% post_url 2024-05-01-article.md %})
+```
 
 #### Links
 - [Github Docs - Add Content to Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll())
