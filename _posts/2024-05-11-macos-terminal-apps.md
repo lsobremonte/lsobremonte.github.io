@@ -3,8 +3,8 @@
 title: MacOS Terminal Apps
 description: a list of mac OS terminal apps
 date: 2024-05-04 09:35:00 -0600
-categories:[apps]
-tags:[cmd, macos, brew]
+categories: [apps]
+tags: [cmd, macos, brew]
 image:
   path: /assets/images/covers/cover-terminal.png
   thumbnail: /assets/images/covers/cover-terminal.png
