@@ -12,7 +12,7 @@ image:
 
 ---
 
-{% post_url 2024-04-29-git-cmd.md %}
+{% post_url /2024-04-29-git-cmd.md %}
 
 ### Install (MacOS)
 * `brew install git` -- install Git
