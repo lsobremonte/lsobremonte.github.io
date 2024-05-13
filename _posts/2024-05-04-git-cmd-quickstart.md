@@ -6,8 +6,8 @@ date: 2024-05-04 08:57:00 -0600
 categories: [cmd, devops]
 tags: [git, bash]
 image:
-  path: /assets/img/covers/cover-git.png
-  thumbnail: /assets/img/covers/cover-git.png
+  path: /assets/images/covers/cover-git.png
+  thumbnail: /assets/images/covers/cover-git.png
   alt: "Git"
 
 ---
