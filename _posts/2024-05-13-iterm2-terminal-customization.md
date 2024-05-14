@@ -60,7 +60,7 @@ Source ~/.zshrc
 iTerm2 > Make iTerm2 Default Term
 
 ### Set Paste with Right-Click
-![iterm2 preference](iterm2.preferences.png)
+![iterm2 preference](/assets/images/content/iterm2.preferences.png)
 
 ### Disable iTerm Password Manager
 - Go to Advanced. 
@@ -77,7 +77,7 @@ cd ~/Library/Preferences/
 - defaults delete com.googlecode.iterm2
 
 ### Uninstall Powerlevel10k
-![Uninstall Powerlevel10k](uninstall.powerlevel10k.png)
+![Uninstall Powerlevel10k](/assets/images/content/uninstall.powerlevel10k.png)
 
 ## Troubleshooting
 ### Issue - Why does my terminal have question marks ?
