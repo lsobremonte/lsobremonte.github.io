@@ -9,7 +9,7 @@ image:
   path: /assets/images/covers/cover-binarycode.png
   thumbnail: /assets/images/covers/cover-binarycode.png
   alt:  "Iterm2"
-media_subpath: /assets/images/content/
+media_subpath: /images/content/
 ---
 
 # Oh-My-ZSH Setup
