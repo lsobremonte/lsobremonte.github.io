@@ -9,11 +9,9 @@ image:
     path: /assets/images/covers/cover-internet.jpg
     thumbnail: /assets/images/covers/cover-internet.jpg
     alt: "Jekyll"
-
+media_subpath: /assets/images/
 ---
 
-Overview:
-Learn all about maintaining Jekyll websites
 
 
 ### GIT Commands

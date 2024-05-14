@@ -12,8 +12,6 @@ image:
 
 ---
 
-Overview:
-Quick Start guide to Git commands
 
 
 ### Install (MacOS)

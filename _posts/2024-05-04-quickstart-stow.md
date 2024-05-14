@@ -9,11 +9,9 @@ image:
   path: /assets/images/covers/cover-dotfiles.png
   thumbnail: /assets/images/covers/cover-dotfiles.png
   alt: "Stow"
-
+media_subpath: /assets/images/
 ---
 
-Overview:
-Quick start guide to GNU Stow
 
 
 ## Overview

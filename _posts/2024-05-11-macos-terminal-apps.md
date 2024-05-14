@@ -8,12 +8,9 @@ tags: [cmd, macos, brew]
 image:
   path: /assets/images/covers/cover-terminal.png
   thumbnail: /assets/images/covers/cover-terminal.png
-  alt: "Terminal Apps"
-
+  alt: "MacOS"
+media_subpath: /assets/images/
 ---
-
-Overview:
-Guide to all the cool terminal apps you can install on MacOS
 
 
 ## Create Table of Contents
@@ -150,13 +147,12 @@ Brew install Entr
 ```
 
 ### Auto Suggestions
-[ZSH Autosuggestions)](https://github.com/zsh-users/zsh-autosuggestions)
+It suggests commands as you type based on history and completions.
 
 ```bash
 brew install zsh-autosuggestions # Install
 ```
 
-- `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` - Add plugin to ~/.zshrc file: plugins=(zsh-autosuggestions)
-
+-  Add plugin to ~/.zshrc (see below screenshot)
 
 ![Add plugin](/assets/images/content/example-add-plugin-zshrc.png)
