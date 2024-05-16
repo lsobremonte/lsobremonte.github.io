@@ -2,7 +2,7 @@
 
 title: Tools - Aliases and Shortcuts
 description: productivity tools for aliases and shortcuts
-date: 2024-05-16 16:38:00 -0600
+date: 2024-05-16 16:00:00 -0600
 categories: [productivity]
 tags: [cmd, alfred,iterm2,tools]
 image:
