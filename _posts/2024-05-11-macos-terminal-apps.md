@@ -6,8 +6,8 @@ date: 2024-05-11 09:35:00 -0600
 categories: [apps]
 tags: [cmd, macos, brew]
 image:
-  path: /assets/images/covers/cover-terminal.png
-  thumbnail: /assets/images/covers/cover-terminal.png
+  path: /assets/images/covers/cover-terminal-icon.png
+  thumbnail: /assets/images/covers/cover-terminal-icon.png
   alt: "MacOS"
 media_subpath: /assets/images/
 ---
