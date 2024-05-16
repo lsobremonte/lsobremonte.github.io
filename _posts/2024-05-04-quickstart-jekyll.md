@@ -6,8 +6,8 @@ date: 2024-05-04 09:40:00 -0600
 categories: [cmd,linux,backups]
 tags: [stow,bash]
 image:
-    path: /assets/images/covers/cover-jekyll.jpg
-    thumbnail: /assets/images/covers/cover-jekyll.jpg
+    path: /assets/images/covers/cover-jekyll.png
+    thumbnail: /assets/images/covers/cover-jekyll.png
     alt: "Jekyll"
 media_subpath: /assets/images/
 ---
