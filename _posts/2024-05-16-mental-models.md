@@ -2,12 +2,12 @@
 
 title: Mental Models
 description: mental models for problem solving
-date: 2024-05-16 1:38:00 -0600
+date: 2024-05-16 16:38:00 -0600
 categories: [productivity]
 tags: [mindset, problem-solving, mental-models]
 image:
-  path: /assets/images/covers/cover-mental-model1.png
-  thumbnail: /assets/images/covers/cover-mental-model1.png
+  path: /assets/images/covers/cover-mental-model2.png
+  thumbnail: /assets/images/covers/cover-mental-model2.png
   alt: "Mental Models"
 media_subpath: /assets/images/
 ---
