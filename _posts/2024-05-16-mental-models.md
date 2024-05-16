@@ -6,8 +6,8 @@ date: 2024-05-16 15:45:00 -0600
 categories: [productivity]
 tags: [mindset, problem-solving, mental-models]
 image:
-  path: /assets/images/covers/cover-mental-model2.jpg
-  thumbnail: /assets/images/covers/cover-mental-model2.jpg
+  path: /assets/images/covers/cover-mental-model2.jpeg
+  thumbnail: /assets/images/covers/cover-mental-model2.jpeg
   alt: "Mental Models"
 media_subpath: /assets/images/
 
