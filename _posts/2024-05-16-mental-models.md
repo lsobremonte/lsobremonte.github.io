@@ -10,6 +10,7 @@ image:
   thumbnail: /assets/images/covers/cover-mental-model2.png
   alt: "Mental Models"
 media_subpath: /assets/images/
+
 ---
 
 # Summary
