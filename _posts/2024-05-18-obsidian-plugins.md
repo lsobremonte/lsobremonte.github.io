@@ -1,0 +1,64 @@
+---
+
+title: Quickstart - Obsidian
+description: Obsidian is a powerful note-taking app that allows you to create a digital second brain. Here's a quickstart guide to get you up and running.
+date: 2024-05-18 6:30:00 -0600
+categories: [productivity,notes]
+tags: [obsidian,tools,plugins]
+image:
+  path: /assets/images/covers/cover-obsidian.png
+  thumbnail: /assets/images/covers/cover-obsidian.png
+  alt: "Obsidian"
+media_subpath: /assets/images/
+
+---
+
+
+### Try
+
+- [ ] Commander - customize workspace with commands and macros
+- [ ] QuickAdd - quickly add notes
+- [ ] Advanced Tables - manipulate markdown tables
+- [ ] DataView - advanced queries to show data
+- [ ] Outliner - create deep list tabbing
+- [ ] Homepage - open a specific note as a home page
+- [ ] Copilot - a chatGPT copilot
+- [ ] Smart Connections - chatGPT too
+
+
+
+### Installed
+- [ ] Iconize - custom icons
+- [ ] ExcaliDraw - draw diagrams
+- [ ] Clear Unused Images - clear images
+
+
+
+### Installed (Not Sure)
+- [ ] Metadata extractor - metadata export (on a schedule) for integration (3rd party launchers and graph analysis software)
+- [ ] Advanced URI - control everything with URI ?
+- [ ] Periodic Notes - create/manage daily, weekly , and monthly notes
+- [ ] Tasks - track tasks across vault with recurring , done dates, etc
+- [ ] Calendar - calendar for visualizing and navigating your notes
+- [ ] Kanban - markdown kanban boards
+- [ ] Style Settings - adjust themes, plugins , and snippet CSS variables
+- [ ] Admonition - fancy call out boxes
+
+
+
+### Yaml vsProperty Tips
+- put in side bar
+- Hide in settings 
+- Or set property visibility to source which reverts its display to yaml format 
+-
+
+
+#### Question
+What is the workflow from obsidian to website ? 
+
+
+### Links
+[An Introduction to Obsidian Properties](https://obsidian.rocks/an-introduction-to-obsidian-properties/)
+[Three Plugins to Simplify Your Metadata Management in Obsidian](https://amerpie.lol/2024/02/06/three-plugins-to.html)
+[Obsidian Help - Properties](https://help.obsidian.md/Editing+and+formatting/Properties)
+[Plugin - Obsidian Copilot](https://github.com/logancyang/obsidian-copilot?tab=readme-ov-file)
