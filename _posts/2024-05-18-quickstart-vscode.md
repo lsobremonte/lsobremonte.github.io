@@ -13,6 +13,11 @@ media_subpath: /assets/images/
 
 ---
 
+### Configure VSCode to launch from terminal
+Open Visual Studio Code and press Command + Shift + P or F1 then type Shell in command palette now you are able to find this option like Shell Command : Install code in PATH
+
+- `Git config --global core.editor "code --wait --new-window"` - Setup VSCode as default editor
+
 
 ### User Settings (Mac OS)
 
@@ -53,3 +58,14 @@ media_subpath: /assets/images/
 ### From VS Code Connect to Azure Cloud Shell
 
 - `CMD + Shift + P` >  "Open PowerShell in Cloud Shell"
+
+### Markdown Preview
+- `Ctrl +  Shift + V` - Open Markdown Preview
+- `Ctrl + K V` - Open Markdown Preview to the Side
+
+### Set VSCode as GIT editor
+- Launch VS Code. 
+- Open the Command Palette (⇧⌘P)
+- type 'shell command' to find the Shell Command: `Install 'code' command in PATH command`.
+- Then try setting core editor with this command:
+`git config --global core.editor "code --wait"`
