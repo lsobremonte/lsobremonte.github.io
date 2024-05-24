@@ -19,6 +19,9 @@ media_subpath: /assets/images/
 - `iCloud` - Icloud folder
 - `Repo` - git repository
 
+### Tools
+-` btop `- resource monitor
+
 ### List files
 - `Lf` - files only
 - `Ld` - directories only
@@ -32,14 +35,6 @@ media_subpath: /assets/images/
 - `o` - obsidian search
 - `bm` - bookmark search
 - `Fzf` - search with fuzzy finder
-- `ask` - direct chatGPT question
--  `ama `- search amazon.ca
-- `icon` - search flat icon site
-- `images` - search google image
-- `y` - search youtube
-- `g` - search google
-- `wiki` - search wikipedia.com
-- `gif` - search Giphy.com
 
 ### Quick info
 - `Top` - quick glance computer resources
@@ -49,8 +44,15 @@ media_subpath: /assets/images/
 - `m` - menu keyboard shortcut guide
 - `Flush` - flush DNS
 - `pj` - prettify unformatted JSON
-### Open website
-- `chatgpt` - open chatGPT page
+
+### Website
+- `g` - search google
+- `y` - search youtube
+- `images` - search google image
+- `icon` - search flat icon site
+-  `ama `- search amazon.ca
+- `gif` - search Giphy.com
+- `wiki` - search wikipedia.com
 - `excalidraw` - open excalidraw.com
 - `acg` - open A Cloud Guru page
 - `chess `- open chess.com
