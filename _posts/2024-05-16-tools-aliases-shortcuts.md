@@ -15,34 +15,44 @@ media_subpath: /assets/images/
 
 ## Terminal Aliases
 ### Folder shortcuts
-- `Co` - code folder
-- `iCloud` - Icloud folder
-- `Repo` - git repository
-
-### Tools
--` btop `- resource monitor
+- `co` - code folder
+- `icloud` - Icloud folder
+- `repo` - git repository
 
 ### List files
-- `Lf` - files only
-- `Ld` - directories only
-- `Lh` - hidden files only
-- `Ll` - detailed long list
-- `Lt` - sort by modified time
+- `lf` - files only
+- `ld` - directories only
+- `lh` - hidden files only
+- `ll` - detailed long list
+- `lt` - sort by modified time
+
+### Tools
+- `fzf` - fuzzy finder
+- `rg` - ripgrep
+- ` btop `- resource monitor
+- `ncdu` - disk usage
+- `speedtest-cli` - speed test
+- `cmatrix `- matrix code
+- `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
+
+
+
+---
 
 ## Alfred
 ### Search
 - `n` - notes search
 - `o` - obsidian search
 - `bm` - bookmark search
-- `Fzf` - search with fuzzy finder
+- `fzf` - search with fuzzy finder
 
 ### Quick info
-- `Top` - quick glance computer resources
-- `Storage` - quick glance computer storage information
+- `top` - quick glance computer resources
+- `storage` - quick glance computer storage information
 - `ip `- IP Address
 - `pwd` - password generator
 - `m` - menu keyboard shortcut guide
-- `Flush` - flush DNS
+- `flush` - flush DNS
 - `pj` - prettify unformatted JSON
 
 ### Website
