@@ -14,10 +14,13 @@ media_subpath: /assets/images/
 ---
 
 ## Terminal Aliases
+![Add plugin](/assets/images/content/terminal-icon.png)
 ### Folder shortcuts
 - `co` - code folder
 - `icloud` - Icloud folder
 - `repo` - git repository
+
+
 
 ### List files
 - `lf` - files only
@@ -40,6 +43,7 @@ media_subpath: /assets/images/
 ---
 
 ## Alfred
+![Add plugin](/assets/images/content/alfred.png)
 ### Search
 - `n` - notes search
 - `o` - obsidian search
@@ -66,3 +70,10 @@ media_subpath: /assets/images/
 - `excalidraw` - open excalidraw.com
 - `acg` - open A Cloud Guru page
 - `chess `- open chess.com
+---
+
+
+### Github Copilot CLI
+![Add plugin](/assets/images/content/github-copilot.png)
+- `ghce` - github copilot CLI explain command
+- `ghcs` - github copilot CLI summarize command
