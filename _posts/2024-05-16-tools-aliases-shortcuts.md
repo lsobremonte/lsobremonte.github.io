@@ -30,7 +30,7 @@ media_subpath: /assets/images/
 ### Tools
 - `fzf` - fuzzy finder
 - `rg` - ripgrep
-- ` btop `- resource monitor
+- `btop` - resource monitor
 - `ncdu` - disk usage
 - `speedtest-cli` - speed test
 - `cmatrix `- matrix code
@@ -65,8 +65,8 @@ media_subpath: /assets/images/
 - `excalidraw` - open excalidraw.com
 - `acg` - open A Cloud Guru page
 - `chess `- open chess.com
----
 
+---
 
 <h1 style="text-align: center;"> GitHub Copilot CLI </h1>
 ![Add plugin](/assets/images/content/github-copilot.png)
