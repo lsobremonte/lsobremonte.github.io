@@ -21,7 +21,6 @@ media_subpath: /assets/images/
 - `repo` - git repository
 
 
-
 ### List files
 - `lf` - files only
 - `ld` - directories only
@@ -37,8 +36,6 @@ media_subpath: /assets/images/
 - `speedtest-cli` - speed test
 - `cmatrix `- matrix code
 - `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
-
-
 
 ---
 
