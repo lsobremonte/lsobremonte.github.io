@@ -12,8 +12,7 @@ image:
 media_subpath: /assets/images/
 
 ---
-
-## Terminal Aliases
+<h1 style="text-align: center;"> Terminal Aliases</h1>
 ![Add plugin](/assets/images/content/terminal-icon.png)
 ### Folder shortcuts
 - `co` - code folder
@@ -38,8 +37,7 @@ media_subpath: /assets/images/
 - `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
 
 ---
-
-## Alfred
+<h1 style="text-align: center;"> Alfred </h1>
 ![Add plugin](/assets/images/content/alfred.png)
 ### Search
 - `n` - notes search
@@ -70,7 +68,7 @@ media_subpath: /assets/images/
 ---
 
 
-### Github Copilot CLI
+<h1 style="text-align: center;"> GitHub Copilot CLI </h1>
 ![Add plugin](/assets/images/content/github-copilot.png)
 - `ghce` - github copilot CLI explain command
 - `ghcs` - github copilot CLI summarize command
