@@ -51,8 +51,9 @@ az vm list-ip-addresses --resource-group $resourceGroup --name $vmname
 
 ## Resource Groups
 - `az group list` - get list of resource groups
-- `az group wait --name <resource group> --deleted` - Delete Resource Group
 - `az group delete --name <resource group> --no-wait` - Delete Resource Group (Fast no wait)
+- `az group wait --name <resource group> --deleted` - only do something after Resource Group is deleted
+
 
 ### Subscription
 **Get subscription tags**

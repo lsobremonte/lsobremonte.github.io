@@ -17,18 +17,18 @@ media_subpath: /assets/images/
 Simplified representations of how the world works. They help us understand complex things and make better decisions.
 
 ### Simplify Complexities
-- `80/20 rule: `80% of results come from 20% of efforts.
-- `Theory of constraints: `Identify and address the main bottleneck to improve the system.
-- `First principles: `Break down complex problems into basic, foundational elements.
-- `Occam's razor: `The simplest explanation is usually the best.
-- `Hock principle: `Seek simplicity on the other side of complexity.
+- `80/20 rule:` 80% of results come from 20% of efforts.
+- `Theory of constraints:` Identify and address the main bottleneck to improve the system.
+- `First principles:` Break down complex problems into basic, foundational elements.
+- `Occam's razor:` The simplest explanation is usually the best.
+- `Hick's Law: ` The more choices you have, the longer it takes to make a decision.
 
 ### Reveal Counterintuitive Insights
-- `Interest-based counting: `Track progress by engagement and impact, not just numbers.
-- `Via negativa: `Focus on reducing negatives rather than adding positives.
-- `Inversion: `Solve problems by thinking about what to avoid or do the opposite.
-- `Relativity: `Understand things in relation to others rather than in isolation.
-- `Velocity vs speed: `Velocity includes direction, speed does not.
+- `Interest-based counting:` The goal is to find common ground and create solutions that are win-win rather than win-lose.
+- `Via negativa:` Focus on reducing negatives rather than adding positives.
+- `Inversion:` Solve problems by thinking about what to avoid or do the opposite.
+- `Relativity:` considering multiple perspectives beyond your own to develop more comprehensive and effective solutions.
+- `Velocity vs speed:` velocity represents progress toward a specific goal while speed is just the rate of movement.
 
 
 ---
