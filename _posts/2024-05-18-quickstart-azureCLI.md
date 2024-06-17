@@ -20,55 +20,38 @@ media_subpath: /assets/images/
 - `az account set --subscription "<subscription id>"` - set active subscription
 
 ### Confirm set subscription
-- `az account show` 
 - `az account show -o json` - verbose
 - `az account show --query 'id' --output tsv `- shows only tenant id
 
 ### Discover
-- `az find <command>` - find command usage
-- `az interactive` - easy mode show next command and help info
+- `az find "az storage"` - uses AI to find common commands
 - `az network nsg --help` - help
+- `az interactive` - easy mode for Azure CLI
+
 
 ### Set default values
 - `az init` - like setting variables makes things less cumbersome
 
 ### Users
-`Get-AzADGroupMember -GroupDisplayName "<security group>"` - Get list of users within a security group
+- `Get-AzADGroupMember -GroupDisplayName "<security group>"` - Get list of users within a security group
+- `az role assignment delete --assignee "<UPN>" --role "User Access Administrator"  --scope "/" `- Remove user from Management Group scope
 
-### Remove user from Management Group scope
-```bash
-az role assignment delete --assignee "<UPN>" --role "User Access Administrator"  --scope "/"
-```
 
 ### Virtual Machines
 - `az vm list `- get list of VMs
 - `ssh <public ip address>` - ssh into VM
+- `az vm list-ip-addresses --resource-group $resourceGroup --name $vmname `- get IP address of VM
 
-**Get IP address of VM**
-```bash
-az vm list-ip-addresses --resource-group $resourceGroup --name $vmname
-```
 
 ## Resource Groups
 - `az group list` - get list of resource groups
 - `az group delete --name <resource group> --no-wait` - Delete Resource Group (Fast no wait)
 - `az group wait --name <resource group> --deleted` - only do something after Resource Group is deleted
+- `az resource delete --resource-group <resource group> --name <name> --resource-type "Microsoft.Compute/virtualMachines"` - Delete resource type inside resource group
 
 
-### Subscription
-**Get subscription tags**
-```bash
-az tag list --resource-id "/subscriptions/ "<subscriptionid>"
-```
-**Tag a subscription**
-```bash
-az account update --subscription <Subscription-ID> --set tags.environment=test
-```
-**Add subscription into management group**
-```bash
-az account management-group subscription add --management-group <management-group-name> --subscription <subscription-id>
-```
-**Deploy Subscription**
-```bash
-az deployment sub create_ --name demoSubDeployment --location centralus --template-file main.bicep --parameters rgName=demoResourceGroup rgLocation=canadacentral
-```
+### Subscriptions
+- `az tag list --resource-id "/subscriptions/ "<subscriptionid>" `- Get subscription tags
+- `az account update --subscription <Subscription-ID> --set tags.environment=test `- Tag a subscription
+- `az account management-group subscription add --management-group <management-group-name> --subscription <subscription-id>` - Add subscription into management group
+- `az deployment sub create_ --name demoSubDeployment --location centralus --template-file main.bicep --parameters rgName=demoResourceGroup rgLocation=canadacentral `- Deploy Subscription
