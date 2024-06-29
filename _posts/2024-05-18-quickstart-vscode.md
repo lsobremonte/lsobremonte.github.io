@@ -21,15 +21,23 @@ Open Visual Studio Code and press Command + Shift + P or F1 then type S
 
 ### User Settings (Mac OS)
 
-`Cmd + Shift + P`
-• Type settings.json
+- `Cmd + Shift + P` then type `settings.json`
 
 ### Python Interpreter (Virtual environment)
 
 - `cmd + shift + p` > Select Python Interpreter 
 - choose venv/bin/python or venv/bin/python3
 
-### Shortcuts
+### Most Useful Shortcuts
+
+- `CTRL + Shift + K` - Remove line
+- ` tick + ctrl` - hide terminal
+- `Cmd + /` - comment code
+- `Shift + Alt + F` - code formatting
+- `Click + CTRL + F2` - multi select cursor
+
+
+### More Shortcuts
 
 - `CMD + B` : use for the show files.
 - `CTRL + ~` : use for the open and closed terminal.
@@ -40,17 +48,10 @@ Open Visual Studio Code and press Command + Shift + P or F1 then type S
 - ``CTRL + alt + down`` : use for the duplicates lines
 
 ### Untested Shortcuts
-- ``CTRL + B ``: scroll up and down (Doesn't work)
-- ``CTRL + \`` : use for split editor window.  (Doesn't Work)
-
-
-### Most Useful
-
-- `CTRL + Shift + K` - Remove line
-- ` tick + ctrl` - hide terminal
-- `Cmd + /` - comment code
-- `Shift + Alt + F` - code formatting
-- `Click + CTRL + F2` - multi select cursor
+- ``CTRL + B ``: scroll up and down
+- ``CTRL + \`` : use for split editor window. 
+- `Ctrl +  Shift + V` - Open Markdown Preview
+- `Ctrl + K V` - Open Markdown Preview to the Side
 
 ### Run Commands
 
@@ -62,9 +63,6 @@ Open Visual Studio Code and press Command + Shift + P or F1 then type S
 
 - `CMD + Shift + P` >  "Open PowerShell in Cloud Shell"
 
-### Markdown Preview
-- `Ctrl +  Shift + V` - Open Markdown Preview
-- `Ctrl + K V` - Open Markdown Preview to the Side
 
 ### Set VSCode as GIT editor
 - Launch VS Code. 
