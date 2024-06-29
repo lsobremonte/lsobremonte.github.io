@@ -41,6 +41,7 @@ media_subpath: /assets/images/
 - `az vm list `- get list of VMs
 - `ssh <public ip address>` - ssh into VM
 - `az vm list-ip-addresses --resource-group $resourceGroup --name $vmname `- get IP address of VM
+- `az vm list --query "[].{Name:name, Size:hardwareProfile.vmSize}" --output table `- list VM Types
 
 
 ## Resource Groups

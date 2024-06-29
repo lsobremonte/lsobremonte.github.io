@@ -31,15 +31,18 @@ Open Visual Studio Code and press Command + Shift + P or F1 then type S
 
 ### Shortcuts
 
-- `CTRL+ B` : use for the show files.
+- `CMD + B` : use for the show files.
 - `CTRL + ~` : use for the open and closed terminal.
-- ``CTRL  + P`` : use for the quick open menu.
-- ``CTRL + B ``: scroll up and down (Doesn't work)
-- ``CTRL + \`` : use for split editor window.  (Doesn't Work)
+- ``CMD + P`` : use for the quick open menu.
 - ``CTRL + W`` : use for the closed file.
 - ``CTRL + shift + l`` : use select all matches and then edit or del.
 - ``CTRL+ D ``: use for add selection to matches.
 - ``CTRL + alt + down`` : use for the duplicates lines
+
+### Untested Shortcuts
+- ``CTRL + B ``: scroll up and down (Doesn't work)
+- ``CTRL + \`` : use for split editor window.  (Doesn't Work)
+
 
 ### Most Useful
 
