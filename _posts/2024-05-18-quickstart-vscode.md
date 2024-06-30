@@ -16,32 +16,34 @@ media_subpath: /assets/images/
 ## Shortcuts
 
 ### Most Useful
-- `ctrl + shift + k` - Remove line
-- ` tick + ctrl` - hide terminal
+- `cmd + p` : quick open menu.
+- `cmd + shift + k` - Remove line
+-  `~ + ctrl` - show/hide terminal
+- `cmd + b` : use for the show files.
 - `cmd + /` - comment code
-- `shift + alt + f` - code formatting
-- `click + ctrl + f2` - multi select cursor
+- ``cmd + w`` - close file.
+
+### Connect to Azure Cloud Shell
+- `CMD + Shift + P` > "Open PowerShell in Cloud Shell"
+- is this better than connect through terminal?
+
 ### Run Commands
 - `fn + f8` - run PowerShell code
 - `command + ' `- run Bash code
 - `shift + enter `- run Python (highlight code)
-### More
-- `cmd + b` : use for the show files.
-- `ctrl + ~` : use for the open and closed terminal.
-- ``cmd + p`` : use for the quick open menu.
-- ``ctrl + w`` : use for the closed file.
-- ``ctrl + shift + l`` : use select all matches and then edit or del.
-- `ctrl+ D` : use for add selection to matches.
-- `ctrl + alt + down` : use for the duplicates lines
+
 
 ### Untested
+- `click + ctrl + f2` - multi select cursor
+- `shift + alt + f` - code formatting
 - `ctrl + b` : scroll up and down
 - `ctrl + \`: use for split editor window. 
 - `ctrl +  Shift + v` - Open Markdown Preview
 - `ctrl + k v` - Open Markdown Preview to the Side
+- `ctrl + shift + l` : use select all matches and then edit or del.
+- `ctrl+ D` : use for add selection to matches.
+- `ctrl + alt + down` : use for the duplicates lines
 
-### Connect to Azure Cloud Shell
-- `CMD + Shift + P` > "Open PowerShell in Cloud Shell"
 
 
 ## Configuration
