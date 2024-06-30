@@ -13,60 +13,55 @@ media_subpath: /assets/images/
 
 ---
 
-### Configure VSCode to launch from terminal
-Open Visual Studio Code and press Command + Shift + P or F1 then type Shell in command palette now you are able to find this option like Shell Command : Install code in PATH
+## Shortcuts
 
-- `Git config --global core.editor "code --wait --new-window"` - Setup VSCode as default editor
-
-
-### User Settings (Mac OS)
-
-- `Cmd + Shift + P` then type `settings.json`
-
-### Python Interpreter (Virtual environment)
-
-- `cmd + shift + p` > Select Python Interpreter 
-- choose venv/bin/python or venv/bin/python3
-
-### Most Useful Shortcuts
-
-- `CTRL + Shift + K` - Remove line
+### Most Useful
+- `ctrl + shift + k` - Remove line
 - ` tick + ctrl` - hide terminal
-- `Cmd + /` - comment code
-- `Shift + Alt + F` - code formatting
-- `Click + CTRL + F2` - multi select cursor
-
-
-### More Shortcuts
-
-- `CMD + B` : use for the show files.
-- `CTRL + ~` : use for the open and closed terminal.
-- ``CMD + P`` : use for the quick open menu.
-- ``CTRL + W`` : use for the closed file.
-- ``CTRL + shift + l`` : use select all matches and then edit or del.
-- ``CTRL+ D ``: use for add selection to matches.
-- ``CTRL + alt + down`` : use for the duplicates lines
-
-### Untested Shortcuts
-- ``CTRL + B ``: scroll up and down
-- ``CTRL + \`` : use for split editor window. 
-- `Ctrl +  Shift + V` - Open Markdown Preview
-- `Ctrl + K V` - Open Markdown Preview to the Side
-
+- `cmd + /` - comment code
+- `shift + alt + f` - code formatting
+- `click + ctrl + f2` - multi select cursor
 ### Run Commands
-
 - `fn + f8` - run PowerShell code
 - `command + ' `- run Bash code
 - `shift + enter `- run Python (highlight code)
+### More
+- `cmd + b` : use for the show files.
+- `ctrl + ~` : use for the open and closed terminal.
+- ``cmd + p`` : use for the quick open menu.
+- ``ctrl + w`` : use for the closed file.
+- ``ctrl + shift + l`` : use select all matches and then edit or del.
+- `ctrl+ D` : use for add selection to matches.
+- `ctrl + alt + down` : use for the duplicates lines
 
-### From VS Code Connect to Azure Cloud Shell
+### Untested
+- `ctrl + b` : scroll up and down
+- `ctrl + \`: use for split editor window. 
+- `ctrl +  Shift + v` - Open Markdown Preview
+- `ctrl + k v` - Open Markdown Preview to the Side
 
-- `CMD + Shift + P` >  "Open PowerShell in Cloud Shell"
+### Connect to Azure Cloud Shell
+- `CMD + Shift + P` > "Open PowerShell in Cloud Shell"
 
+
+## Configuration
+### Setup VSCode as default editor
+- `Git config --global core.editor "code --wait --new-window"`
+
+### Configure VSCode to launch from terminal
+1. Open VSCode and press `cmd + shift + p` 
+2. type and choose : Shell Command:install code command in PATH
+
+### Edit User Settings (Mac OS)
+- `Cmd + Shift + P` then type `settings.json`
+
+### Select Python Interpreter (Virtual environment)
+- `cmd + shift + p` > Select Python Interpreter 
+- choose venv/bin/python or venv/bin/python3
 
 ### Set VSCode as GIT editor
-- Launch VS Code. 
-- Open the Command Palette (⇧⌘P)
-- type 'shell command' to find the Shell Command: `Install 'code' command in PATH command`.
-- Then try setting core editor with this command:
+1. Launch VS Code. 
+2. Open the Command Palette (⇧⌘P)
+3. type 'shell command' to find the Shell Command: `Install 'code' command in PATH command`.
+4. Then try setting core editor with this command:
 `git config --global core.editor "code --wait"`
