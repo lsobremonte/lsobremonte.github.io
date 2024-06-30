@@ -14,24 +14,22 @@ media_subpath: /assets/images/
 ---
 
 ## Legend
-- **Control (⌃)**: ⌃
-- **⇧**: ⇧
-- **Option (⌥)**: ⌥
-- **Command (⌘)**: ⌘
+- **Shift**: ⇧
+- **Control** : ⌃ | **Option**: ⌥ | **Command**: ⌘
 
 ## Shortcuts
 
 ### Most Useful
-- `⇧ + ⌘ + P` - Open the Command Palette
+- `⇧ + ⌘ + p` - Open the Command Palette
 - `⌘ + p` : quick open menu
 - `⌘ + ⇧ + k` - Remove line
 - `~ + ⌃` - show/hide terminal
-- `⌘ + b` : use for the show files.
+- `⌘ + b` : use for the show files
 - `⌘ + /` - comment code
-- ``⌘ + w`` - close file.
+- ``⌘ + w`` - close file
 
 ### Connect to Azure Cloud Shell
-- `⌘ + ⇧ + P` > "Open PowerShell in Cloud Shell"
+- `⌘ + ⇧ + p` > "Open PowerShell in Cloud Shell"
 - is this better than connect through terminal?
 
 ### Run Commands
@@ -62,7 +60,7 @@ media_subpath: /assets/images/
 2. type and choose : Shell Command:install code command in PATH
 
 ### Edit User Settings (Mac OS)
-- `⌘ + ⇧ + P` then type `settings.json`
+- `⌘ + ⇧ + p` then type `settings.json`
 
 
 ### Select Python Interpreter (Virtual environment)
