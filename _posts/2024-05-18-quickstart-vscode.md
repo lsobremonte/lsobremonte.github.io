@@ -15,7 +15,9 @@ media_subpath: /assets/images/
 
 ## Legend
 - **Shift**: ⇧
-- **Control** : ⌃ | **Option**: ⌥ | **Command**: ⌘
+- **Control** : ⌃
+- **Option**: ⌥
+- **Command**: ⌘
 
 ## Shortcuts
 
