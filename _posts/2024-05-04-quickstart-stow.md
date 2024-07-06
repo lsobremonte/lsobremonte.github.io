@@ -50,8 +50,8 @@ git push # upload local repository content to remote repository
 
 ### Restore folders from git
 
-This shows how to restore folders from git using stow on a fresh machine
-**note**: delete the existing files before running the command (ie. `rm ~/.zshrc` )
+- This shows how to restore folders from git using stow on a fresh machine
+- **note**: delete the existing files before running the command (ie. `rm ~/.zshrc` )
 
 ```bash
 git clone your-repository-url ~/dotfiles # download
