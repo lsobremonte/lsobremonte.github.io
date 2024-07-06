@@ -34,6 +34,7 @@ media_subpath: /assets/images/
 - [Rip Grep Moder Grep tool](#rip-grep-moder-grep-tool)
 - [ENTR](#entr)
 - [Auto Suggestions](#auto-suggestions)
+- [Vim](#vim)
 
 ---
 
@@ -156,3 +157,6 @@ brew install zsh-autosuggestions # Install
 -  Add plugin to ~/.zshrc (see below screenshot)
 
 ![Add plugin](/assets/images/content/example-add-plugin-zshrc.png)
+
+### Vim
+brew install vim

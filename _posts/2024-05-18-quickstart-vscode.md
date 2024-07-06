@@ -14,25 +14,34 @@ media_subpath: /assets/images/
 ---
 
 ## Legend
-- **Shift**: ⇧
-- **Control** : ⌃
-- **Option**: ⌥
-- **Command**: ⌘
+**Shift**: ⇧
+**Control** : ⌃
+**Option**: ⌥
+**Command**: ⌘
+
+
 
 ## Shortcuts
 
-### Most Useful
-- `⇧ + ⌘ + p` - Open the Command Palette
-- `⌘ + p` : quick open menu
-- `⌘ + ⇧ + k` - Remove line
-- `~ + ⌃` - show/hide terminal
-- `⌘ + b` : use for the show files
-- `⌘ + /` - comment code
+### Command Pallete
+- `⇧ + ⌘ + p` - open to run all commands
+
+### Hide/Show
+- `~ + ⌃` - terminal
+- `⌘ + b` : side bar
+
+
+### Files
+- `⌘ + p` : quick file open
 - ``⌘ + w`` - close file
+
+### Edit
+- `⌘ + /` - comment code
+- `⌘ + ⇧ + k` - Remove line
 
 ### Connect to Azure Cloud Shell
 - `⌘ + ⇧ + p` > "Open PowerShell in Cloud Shell"
-- is this better than connect through terminal?
+-  **Secure** ???  Cloud Shell vs Local Shell (az login)
 
 ### Run Commands
 - `fn + f8` - run PowerShell code
@@ -41,36 +50,28 @@ media_subpath: /assets/images/
 
 
 ### Untested
-- `click + ⌃ + f2` - multi select cursor
-- `⇧ + ⌥ + f` - code formatting
-- `⌃ + b` : scroll up and down
-- `⌃ + \`: use for split editor window. 
-- `⌃ +  ⇧ + v` - Open Markdown Preview
-- `⌃ + k v` - Open Markdown Preview to the Side
-- `⌃ + ⇧ + l` : use select all matches and then edit or del.
-- `⌃+ D` : use for add selection to matches.
-- `⌃ + ⌥ + down` : use for the duplicates lines
+Multi-select cursor: `click + ⌃ + F2`
+Code formatting: `⇧ + ⌥ + F`
+Scroll up and down: `⌃ + Up/Down Arrow`
+Split editor window: `⌃ + \`
+Open Markdown Preview: `⌃ + ⇧ + V`
+Open Markdown Preview to the Side: `⌃ + K V`
+Select all matches and then edit or delete: `⌃ + ⇧ + L`
+Add selection to matches: `⌃ + D`
+Duplicate lines: `⌃ + ⌥ + Down`
 
 
 ## Configuration
-
-### Setup VSCode as default editor
-- `Git config --global core.editor "code --wait --new-window"`
+### Configures Git to use VSCode as the default editor
+Type the following in terminal : `git config --global core.editor "code --wait"`
 
 ### Configure VSCode to launch from terminal
 1. Open VSCode and press `⌘ + ⇧ + p` 
-2. type and choose : Shell Command:install code command in PATH
+2. type in `Install 'code' command in PATH command` and press Enter
 
 ### Edit User Settings (Mac OS)
 - `⌘ + ⇧ + p` then type `settings.json`
 
-
 ### Select Python Interpreter (Virtual environment)
-- `⌘ + ⇧ + p` > Select Python Interpreter 
-- choose venv/bin/python or venv/bin/python3
-
-### Set VSCode as GIT editor
-1. Open the Command Palette (⇧⌘P)
-2. type 'shell command' to find the Shell Command: `Install 'code' command in PATH command`.
-3. Then try setting core editor with this command:
-`git config --global core.editor "code --wait"`
+1. `⌘ + ⇧ + p` then select **Python Interpreter**
+2. choose `venv/bin/python `or `venv/bin/python3`
