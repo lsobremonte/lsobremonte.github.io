@@ -10,9 +10,9 @@ image:
   thumbnail: /assets/images/covers/cover-tools.png
   alt: "Tools - Aliases and Shortcuts"
 media_subpath: /assets/images/
-
 ---
-<h1 style="text-align: center;"> Terminal Aliases</h1>
+
+---<h1 style="text-align: center;"> Terminal Aliases</h1>
 ![Add plugin](/assets/images/content/terminal-icon.png)
 ### Folder shortcuts
 - `co` - code folder
@@ -27,17 +27,21 @@ media_subpath: /assets/images/
 - `ll` - detailed long list
 - `lt` - sort by modified time
 
-### Tools
-- `fzf` - fuzzy finder
-- `rg` - ripgrep
-- `btop` - resource monitor
-- `ncdu` - disk usage
-- `speedtest-cli` - speed test
-- `cmatrix `- matrix code
-- `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
 
----
-<h1 style="text-align: center;"> Alfred </h1>
+### Tools
+<details>
+  <summary>List</summary>
+
+  - `fzf` - fuzzy finder
+  - `rg` - ripgrep
+  - `btop` - resource monitor
+  - `ncdu` - disk usage
+  - `speedtest-cli` - speed test
+  - `cmatrix `- matrix code
+  - `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
+</details>
+
+---<h1 style="text-align: center;"> Alfred </h1>
 ![Add plugin](/assets/images/content/alfred.png)
 ### Search
 - `n` - notes search
@@ -66,9 +70,7 @@ media_subpath: /assets/images/
 - `acg` - open A Cloud Guru page
 - `chess `- open chess.com
 
----
-
-<h1 style="text-align: center;"> GitHub Copilot CLI </h1>
+---<h1 style="text-align: center;"> GitHub Copilot CLI </h1>
 ![Add plugin](/assets/images/content/github-copilot.png)
 - `ghce` - github copilot CLI explain command
 - `ghcs` - github copilot CLI summarize command
