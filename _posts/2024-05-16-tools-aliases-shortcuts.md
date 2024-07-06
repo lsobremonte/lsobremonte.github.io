@@ -10,6 +10,7 @@ image:
   thumbnail: /assets/images/covers/cover-tools.png
   alt: "Tools - Aliases and Shortcuts"
 media_subpath: /assets/images/
+
 ---
 
 ---<h1 style="text-align: center;"> Terminal Aliases</h1>
@@ -29,9 +30,6 @@ media_subpath: /assets/images/
 
 
 ### Tools
-<details>
-  <summary>List</summary>
-
   - `fzf` - fuzzy finder
   - `rg` - ripgrep
   - `btop` - resource monitor
@@ -39,7 +37,7 @@ media_subpath: /assets/images/
   - `speedtest-cli` - speed test
   - `cmatrix `- matrix code
   - `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
-</details>
+
 
 ---<h1 style="text-align: center;"> Alfred </h1>
 ![Add plugin](/assets/images/content/alfred.png)
