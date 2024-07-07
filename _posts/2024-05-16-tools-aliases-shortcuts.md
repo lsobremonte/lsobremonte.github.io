@@ -40,7 +40,7 @@ media_subpath: /assets/images/
   - `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
 
 
-# Alred
+# Alfred
 ![Add plugin](/assets/images/content/alfred.png)
 
 ### Search
