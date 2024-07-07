@@ -42,38 +42,6 @@ media_subpath: /assets/images/
 
 ---
 
-<h1 style="text-align: center;"> Alfred Search</h1>
-
-![Add plugin](/assets/images/content/alfred.png)
-
-### Search
-- `n` - notes search
-- `o` - obsidian search
-- `bm` - bookmark search
-- `fzf` - search with fuzzy finder
-
-### Quick info
-- `top` - quick glance computer resources
-- `storage` - quick glance computer storage information
-- `ip `- IP Address
-- `pwd` - password generator
-- `m` - menu keyboard shortcut guide
-- `flush` - flush DNS
-- `pj` - prettify unformatted JSON
-
-### Website
-- `g` - search google
-- `y` - search youtube
-- `images` - search google image
-- `icon` - search flat icon site
--  `ama `- search amazon.ca
-- `gif` - search Giphy.com
-- `wiki` - search wikipedia.com
-- `excalidraw` - open excalidraw.com
-- `acg` - open A Cloud Guru page
-- `chess `- open chess.com
-
----
 
 <h1 style="text-align: center;"> GitHub Copilot CLI </h1>
 

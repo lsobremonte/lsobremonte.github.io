@@ -6,8 +6,8 @@ date: 2024-05-18 6:35:00 -0600
 categories: [tools]
 tags: [cmd, azure, cloud, cli]
 image:
-  path: /assets/images/covers/cover-terminal-icon.png
-  thumbnail: /assets/images/covers/cover-terminal-icon.png
+  path: /assets/images/covers/cover-alfred.png
+  thumbnail: /assets/images/covers/cover-alfred.png
   alt: "Tools - Aliases and Shortcuts"
 media_subpath: /assets/images/
 
