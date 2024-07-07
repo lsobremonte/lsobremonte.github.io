@@ -71,14 +71,12 @@ media_subpath: /assets/images/
 - `chess `- open chess.com
 
 
-
+---<h1 style="text-align: center;"> GitHub Copilot CLI </h1>
 ![Add plugin](/assets/images/content/github-copilot.png)
 
 - `ghce` - github copilot CLI explain command
 - `ghcs` - github copilot CLI summarize command
 
 
-
----<h1 style="text-align: center;"> GitHub Copilot CLI </h1>
 
 
