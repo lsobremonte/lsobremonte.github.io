@@ -1,14 +1,14 @@
 ---
 
-title: chatGPT Prompts
+title: chatGPT
 description: Collection of prompts for chatGPT
-date: 2024-07-08 16:00:00 -0600
+date: 2024-07-08 13:00:00 -0600
 categories: [artificial-intelligence, gpt, prompts]
 tags: [chatGPT,AI,learning,tools]
 image:
   path: /assets/images/covers/cover-chatgpt.png
   thumbnail: /assets/images/covers/cover-chatgpt.png
-  alt: "chatGPT Prompts - Collection of prompts for GPT"
+  alt: "chatGPT - Collection of prompts for GPT"
 media_subpath: /assets/images/
 
 ---
