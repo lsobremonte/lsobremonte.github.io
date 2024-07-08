@@ -1,19 +1,19 @@
 ---
 
-title: Tools - Aliases and Shortcuts
-description: productivity tools for aliases and shortcuts
+title: Teminal Tools
+description: Tools and Aliases for Terminal
 date: 2024-05-16 16:00:00 -0600
 categories: [productivity]
 tags: [cmd, alfred,iterm2,tools]
 image:
-  path: /assets/images/covers/cover-tools.png
-  thumbnail: /assets/images/covers/cover-tools.png
-  alt: "Tools - Aliases and Shortcuts"
+  path: assets/images/covers/cover-terminal-101s.png
+  thumbnail: assets/images/covers/cover-terminal-101s.png
+  alt: "Terminal Tools - Tools and Aliases"
 media_subpath: /assets/images/
 
 ---
 
-<h1 style="text-align: center;"> Terminal </h1>
+<h1 style="text-align: center;"> Terminal Aliases </h1>
 
 ![Add plugin](/assets/images/content/terminal-icon.png)
 
