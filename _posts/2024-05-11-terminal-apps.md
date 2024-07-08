@@ -159,4 +159,6 @@ brew install zsh-autosuggestions # Install
 ![Add plugin](/assets/images/content/example-add-plugin-zshrc.png)
 
 ### Vim
+```bash
 brew install vim
+```
