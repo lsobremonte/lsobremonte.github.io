@@ -17,21 +17,21 @@ media_subpath: /assets/images/
 <summary>Learning Prompts</summary>
 
 <p><b>Learn a Concept</b><br>
-Explain the `TOPIC` by giving the Why ? What ? How ?</p>
+Explain the [TOPIC] by giving the Why ? What ? How ?</p>
 <p><b>Compare (short)</b><br>
 In a short sentence explain the difference between `TOPIC A` and `TOPIC B`</p>
 <p><b>Compare (Detailed)</b><br>
-Compare and contrast the following concepts `TOPIC A` and `TOPIC B`</p>
+Compare and contrast the following concepts [TOPIC A] and [TOPIC B]</p>
 <p><b>Explain Concept</b><br>
-Explain to me in the simplest terms possible as if I’m a complete beginner for `TOPIC`</p>
+Explain to me in the simplest terms possible as if I’m a complete beginner for [TOPIC]</p>
 <p><b>5 key points</b><br>
 What are the 5 key points I should when studying the topic above ?</p>
 <p><b>Re-explain</b><br>
 I don't understand can you re-explain in a different way ?</p>
 <p><b>Visualization Exercise</b><br>
-Guide me through a visualization exercise to help me internalize the `TOPIC` and imagine myself successfully applying it to a real-life situation.</p>
+Guide me through a visualization exercise to help me internalize the [TOPIC] and imagine myself successfully applying it to a real-life situation.</p>
 <p><b>Create Mental model | Analogy | Metaphor</b><br>
-create a mental model or analogy or metaphor to help me understand the following concept `TOPIC`</p>
+create a mental model or analogy or metaphor to help me understand the following concept [TOPIC]</p>
 
 <p><b>Socractic questioning</b><br>
 I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question. </p>
@@ -45,19 +45,19 @@ I want you to act as a Socrate and use the socratic method to help me improve my
 <summary>Brainstorming Prompts</summary>
 
 <p><b>Brainstorm Ideas</b><br>
-Brainstorm new ideas or approaches. Prioritize ideas that are uncommon or novel for `TOPIC`.</p>
+Brainstorm new ideas or approaches. Prioritize ideas that are uncommon or novel for [TOPIC].</p>
 
 <p><b>Create a Mind Map</b><br>
-Create a mind map. List out the central idea, main branches, and sub-branches for `TOPIC`.</p>
+Create a mind map. List out the central idea, main branches, and sub-branches for [TOPIC].</p>
 
 <p><b>Order of what to learn</b><br>
-I want you to act as an expert in `TOPIC` and imagine that I am a complete beginner. What do you think are the 10 most important concepts from this subject to start with and in which order? Give me a brief overview of those concepts and your reasoning as to why it's best to learn them in that order.</p>
+I want you to act as an expert in [TOPIC] and imagine that I am a complete beginner. What do you think are the 10 most important concepts from this subject to start with and in which order? Give me a brief overview of those concepts and your reasoning as to why it's best to learn them in that order.</p>
 
 <p><b>Build topic list using Pareto Principal</b><br>
-I want to learn `TOPIC`. Can you use the Pareto principle (80/20 rule), which identifies 20% of the topic that will yield me 80% of the desired results, to create a focused learning plan for me?</p>
+I want to learn [TOPIC]. Can you use the Pareto principle (80/20 rule), which identifies 20% of the topic that will yield me 80% of the desired results, to create a focused learning plan for me?</p>
 
 <p><b>Get Project Ideas</b><br>
-I am a beginner interested in learning `TOPIC`. Can you give me some beginner project ideas to help strengthen my knowledge?</p>
+I am a beginner interested in learning [TOPIC]. Can you give me some beginner project ideas to help strengthen my knowledge?</p>
 
 </details>
 
@@ -93,9 +93,11 @@ I'll share an article below. How does the information in this article apply to a
 <details>
 <summary>Tests Prompts</summary>
 
-#### Test yourself using Feynman technique
+<p><b> # 1 - TIP !  Test yourself using Feynman technique</b><br>
+You explain what you have understood and ask it if you got it right or not</p>
+
 <p><b>Create a study plan</b><br>
-Create a study timetable for a student revising `TOPIC`.
+Create a study timetable for a student revising [TOPIC].
 The timetable should cover a week.
 The timetable should break the above topic down into its individual learning topics.
 The timetable should include food breaks, exercise breaks, and sleep.
@@ -105,16 +107,16 @@ Each day should be displayed in time blocks.</p>
 I have an upcoming exam that I need to practice. Could you please provide me with 5 multiple-choice and 5 long-form questions for me to practice?</p>
 
 <p><b>Create multiple-choice questions</b><br>
-Topic: `TOPIC`
+Topic: [TOPIC]
 Write a multiple-choice question with 1 correct answer and 4 incorrect distractor answers.
 Answers should be labeled A to E. Each answer should have an explanation.</p>
 
 <p><b>Create Multiple Choice Questions</b><br>
-You are a college professor in `SUBJECT`. Create 10 multiple-choice questions based on the topic of `TOPIC`. There should be 1 correct answer and 3 incorrect answers.
+You are a college professor in `SUBJECT`. Create 10 multiple-choice questions based on the topic of [TOPIC]. There should be 1 correct answer and 3 incorrect answers.
 Allow me to answer one question at a time before providing me another question. For each question I answer, please advise if I am correct or incorrect and provide an explanation accordingly.</p>
 
 <p><b>Short answer prompt</b><br>
-You are a college professor in `SUBJECT`. Create 5 based **short answer questions** on a topic of `TOPIC`.
+You are a college professor in `SUBJECT`. Create 5 based **short answer questions** on a topic of [TOPIC].
 Allow me to answer one question at a time before providing me another question. For each question I answer, please advise if I am correct or incorrect and provide an explanation. Grade my answers in percentages.</p>
 
 <p><b>Create Study schedule</b><br>
