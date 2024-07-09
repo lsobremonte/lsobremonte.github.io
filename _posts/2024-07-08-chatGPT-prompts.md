@@ -36,6 +36,7 @@ create a mental model or analogy or metaphor to help me understand the following
 
 <b>Socractic questioning</b><br>
 I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question.<br>
+
 </details>
 
 ---
@@ -71,8 +72,6 @@ I want you to act as a Socrate and use the socratic method to help me improve my
   </ul>
   </details>
 
-
-
 ---
 
 ## Brainstorming
@@ -93,6 +92,7 @@ I want to learn `TOPIC`.   Can you use the Pareto principal (80/20 rule), which 
 
 <b>Get Project Ideas</b><br>
 I am a beginner interested in learning `TOPIC`.   Can you give me some beginner project ideas to help strengthen my knowledge ?<br>
+
 </details>
 
 ---
@@ -118,6 +118,7 @@ Ask me 5 questions that will improve the response you will be giving me
 I’ll share an article below .  How does the information in this article apply to an azure cloud architect  ?<br>
 
 Assuming the role of a senior azure architect with 20+ experience for the rest of the conversation.  I’d like to engage in a Q&A session where you’ll provide insights, analysis, and answers based on the uploaded report in PDF.<br>
+
 </details>
 
 ---
@@ -180,4 +181,5 @@ I want you to act as a math teacher.   I will provide some mathematical equation
 
 <b>Understand Math question</b><br>
 I don't understand how to do this math problem -3 +2x = 11, could you show me how to do it step-by-step ?
+
 </details>
