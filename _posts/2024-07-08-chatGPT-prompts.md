@@ -35,7 +35,7 @@ Guide me through a visualization exercise to help me internalize the `TOPIC` and
 create a mental model or analogy or metaphor to help me understand the following concept `TOPIC`
 
 <p><b>Socractic questioning</b><br>
-I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question.
+I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question. <br>
 
 </details>
 
