@@ -17,9 +17,9 @@ media_subpath: /assets/images/
 <details>
 <summary>Learning Prompts</summary>
 
-<p><b>Learn a Concept</b><br>
+<b>Learn a Concept</b><br>
 Explain the `TOPIC` by giving the Why ? What ? How ?<br>
-<p><b>Compare (short)</b><br>
+<b>Compare (short)</b><br>
 In a short sentence explain the difference between `TOPIC A` and `TOPIC B`<br>
 <b>Compare (Detailed)</b><br>
 Compare and contrast the following concepts `TOPIC A` and `TOPIC B`<br>
@@ -70,6 +70,7 @@ I want you to act as a Socrate and use the socratic method to help me improve my
   <li>Show me the <span style="color:#406CB4">top trends in a visual format</span></li>
   <li>What is the <span style="color:#406CB4">key lesson</span> from this dataset?</li>
   </ul>
+
   </details>
 
 ---
@@ -176,10 +177,10 @@ Could you please help me practice a basic conversation in `LANGUAGE` where we ta
 <details>
 <summary>Math  Prompts</summary>
 
-<b>Learn Math</b><br>
+<p><b>Learn Math</b><br>
 I want you to act as a math teacher.   I will provide some mathematical equations or concepts, and it will be your job to explain them in easy-to-understand terms.  This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals or suggesting online resources for further study.  My first request is " I need help understanding how probability works"
 
-<b>Understand Math question</b><br>
+<p><b>Understand Math question</b><br>
 I don't understand how to do this math problem -3 +2x = 11, could you show me how to do it step-by-step ?
 
 </details>
