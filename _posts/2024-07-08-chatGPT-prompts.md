@@ -18,24 +18,24 @@ media_subpath: /assets/images/
 <summary>Learning Prompts</summary>
 
 <p><b>Learn a Concept</b><br>
-Explain the `TOPIC` by giving the Why ? What ? How ?<br>
+Explain the `TOPIC` by giving the Why ? What ? How ?
 <p><b>Compare (short)</b><br>
-In a short sentence explain the difference between `TOPIC A` and `TOPIC B`<br>
+In a short sentence explain the difference between `TOPIC A` and `TOPIC B`
 <p><b>Compare (Detailed)</b><br>
-Compare and contrast the following concepts `TOPIC A` and `TOPIC B`<br>
+Compare and contrast the following concepts `TOPIC A` and `TOPIC B`
 <p><b>Explain Concept</b><br>
-Explain to me in the simplest terms possible as if I’m a complete beginner for `TOPIC`<br>
+Explain to me in the simplest terms possible as if I’m a complete beginner for `TOPIC`
 <p><b>5 key points</b><br>
-What are the 5 key points I should when studying the topic above ?<br>
+What are the 5 key points I should when studying the topic above ?
 <p><b>Re-explain</b><br>
-I don't understand can you re-explain in a different way ?<br>
+I don't understand can you re-explain in a different way ?
 <p><b>Visualization Exercise</b><br>
-Guide me through a visualization exercise to help me internalize the `TOPIC` and imagine myself successfully applying it to a real-life situation.<br>
+Guide me through a visualization exercise to help me internalize the `TOPIC` and imagine myself successfully applying it to a real-life situation.
 <p><b>Create Mental model | Analogy | Metaphor</b><br>
-create a mental model or analogy or metaphor to help me understand the following concept `TOPIC`<br>
+create a mental model or analogy or metaphor to help me understand the following concept `TOPIC`
 
 <p><b>Socractic questioning</b><br>
-I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question.<br>
+I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question.
 
 </details>
 
@@ -80,19 +80,19 @@ I want you to act as a Socrate and use the socratic method to help me improve my
 <summary>Brainstorming Prompts</summary>
 
 <p><b>Brainstorm Ideas</b><br>
-Brainstorm new ideas or approaches.  prioritize ideas that are uncommon or novel for TOPIC<br>
+Brainstorm new ideas or approaches.  prioritize ideas that are uncommon or novel for `TOPIC`
 
 <p><b>Create a Mind Map</b><br>
-Create a mind map.  List out the central idea, main branches, and sub-branches for `TOPIC`<br>
+Create a mind map.  List out the central idea, main branches, and sub-branches for `TOPIC`
 
 <p><b>Order of what to learn</b><br>
-I want you to act as an expert in `TOPIC` and imagine that I am a complete beginner .  What do you think are the 10 most important concepts from this subject to start with and in which order ?  give me a brief overview of those concepts and your reasoning as to why its best to learn them in the that order.<br>
+I want you to act as an expert in `TOPIC` and imagine that I am a complete beginner .  What do you think are the 10 most important concepts from this subject to start with and in which order ?  give me a brief overview of those concepts and your reasoning as to why its best to learn them in the that order.
 
 <p><b>Build topic list using Pareto Principal</b><br>
-I want to learn `TOPIC`.   Can you use the Pareto principal (80/20 rule), which identifies 20% of the topic that will yield me 80% of the desired results, to create a focused learning plan for me.<br>
+I want to learn `TOPIC`.   Can you use the Pareto principal (80/20 rule), which identifies 20% of the topic that will yield me 80% of the desired results, to create a focused learning plan for me.
 
 <p><b>Get Project Ideas</b><br>
-I am a beginner interested in learning `TOPIC`.   Can you give me some beginner project ideas to help strengthen my knowledge ?<br>
+I am a beginner interested in learning `TOPIC`.   Can you give me some beginner project ideas to help strengthen my knowledge ?
 
 </details>
 
@@ -103,22 +103,22 @@ I am a beginner interested in learning `TOPIC`.   Can you give me some beginner 
 <summary>Note Taking Prompts</summary>
 
 <p><b>Summarize Notes</b><br>
-Summarize this and re-write on one sentence:  `(Paste Text here )`<br>
+Summarize this and re-write on one sentence:  `(Paste Text here )`
 
 <p><b>Expand on Notes</b><br>
-Expand on these notes: `(Paste Text here )`<br>
+Expand on these notes: `(Paste Text here )`
 
 <p><b>Summarize a Book</b><br>
-Give me the main points of the book `(Book Title)` ?<br>
+Give me the main points of the book `(Book Title)` ?
 
 <p><b>Summarize Text</b><br>
-Summarize the following in **300 characters or less**. Then list 3 use cases or practical examples.  Briefly describe alternatives, benefits and trade-offs.<br>
+Summarize the following in **300 characters or less**. Then list 3 use cases or practical examples.  Briefly describe alternatives, benefits and trade-offs.
 
 <p><b>Q&A After uploading PDF</b><br>
 Ask me 5 questions that will improve the response you will be giving me
-I’ll share an article below .  How does the information in this article apply to an azure cloud architect  ?<br>
+I’ll share an article below .  How does the information in this article apply to an azure cloud architect  ?
 
-Assuming the role of a senior azure architect with 20+ experience for the rest of the conversation.  I’d like to engage in a Q&A session where you’ll provide insights, analysis, and answers based on the uploaded report in PDF.<br>
+Assuming the role of a senior azure architect with 20+ experience for the rest of the conversation.  I’d like to engage in a Q&A session where you’ll provide insights, analysis, and answers based on the uploaded report in PDF.
 
 </details>
 
@@ -184,4 +184,3 @@ I want you to act as a math teacher.   I will provide some mathematical equation
 I don't understand how to do this math problem -3 +2x = 11, could you show me how to do it step-by-step ?
 
 </details>
-
