@@ -17,24 +17,24 @@ media_subpath: /assets/images/
 <details>
 <summary>Learning Prompts</summary>
 
-<b>Learn a Concept</b><br>
+<p><b>Learn a Concept</b><br>
 Explain the `TOPIC` by giving the Why ? What ? How ?<br>
-<b>Compare (short)</b><br>
+<p><b>Compare (short)</b><br>
 In a short sentence explain the difference between `TOPIC A` and `TOPIC B`<br>
-<b>Compare (Detailed)</b><br>
+<p><b>Compare (Detailed)</b><br>
 Compare and contrast the following concepts `TOPIC A` and `TOPIC B`<br>
-<b>Explain Concept</b><br>
+<p><b>Explain Concept</b><br>
 Explain to me in the simplest terms possible as if I’m a complete beginner for `TOPIC`<br>
-<b>5 key points</b><br>
+<p><b>5 key points</b><br>
 What are the 5 key points I should when studying the topic above ?<br>
-<b>Re-explain</b><br>
+<p><b>Re-explain</b><br>
 I don't understand can you re-explain in a different way ?<br>
-<b>Visualization Exercise</b><br>
+<p><b>Visualization Exercise</b><br>
 Guide me through a visualization exercise to help me internalize the `TOPIC` and imagine myself successfully applying it to a real-life situation.<br>
-<b>Create Mental model | Analogy | Metaphor</b><br>
+<p><b>Create Mental model | Analogy | Metaphor</b><br>
 create a mental model or analogy or metaphor to help me understand the following concept `TOPIC`<br>
 
-<b>Socractic questioning</b><br>
+<p><b>Socractic questioning</b><br>
 I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question.<br>
 
 </details>
@@ -79,19 +79,19 @@ I want you to act as a Socrate and use the socratic method to help me improve my
 <details>
 <summary>Brainstorming Prompts</summary>
 
-<b>Brainstorm Ideas</b><br>
+<p><b>Brainstorm Ideas</b><br>
 Brainstorm new ideas or approaches.  prioritize ideas that are uncommon or novel for TOPIC<br>
 
-<b>Create a Mind Map</b><br>
+<p><b>Create a Mind Map</b><br>
 Create a mind map.  List out the central idea, main branches, and sub-branches for `TOPIC`<br>
 
-<b>Order of what to learn</b><br>
+<p><b>Order of what to learn</b><br>
 I want you to act as an expert in `TOPIC` and imagine that I am a complete beginner .  What do you think are the 10 most important concepts from this subject to start with and in which order ?  give me a brief overview of those concepts and your reasoning as to why its best to learn them in the that order.<br>
 
-<b>Build topic list using Pareto Principal</b><br>
+<p><b>Build topic list using Pareto Principal</b><br>
 I want to learn `TOPIC`.   Can you use the Pareto principal (80/20 rule), which identifies 20% of the topic that will yield me 80% of the desired results, to create a focused learning plan for me.<br>
 
-<b>Get Project Ideas</b><br>
+<p><b>Get Project Ideas</b><br>
 I am a beginner interested in learning `TOPIC`.   Can you give me some beginner project ideas to help strengthen my knowledge ?<br>
 
 </details>
@@ -102,19 +102,19 @@ I am a beginner interested in learning `TOPIC`.   Can you give me some beginner 
 <details>
 <summary>Note Taking Prompts</summary>
 
-<b>Summarize Notes</b><br>
+<p><b>Summarize Notes</b><br>
 Summarize this and re-write on one sentence:  `(Paste Text here )`<br>
 
-<b>Expand on Notes</b><br>
+<p><b>Expand on Notes</b><br>
 Expand on these notes: `(Paste Text here )`<br>
 
-<b>Summarize a Book</b><br>
+<p><b>Summarize a Book</b><br>
 Give me the main points of the book `(Book Title)` ?<br>
 
-<b>Summarize Text</b><br>
+<p><b>Summarize Text</b><br>
 Summarize the following in **300 characters or less**. Then list 3 use cases or practical examples.  Briefly describe alternatives, benefits and trade-offs.<br>
 
-<b>Q&A After uploading PDF</b><br>
+<p><b>Q&A After uploading PDF</b><br>
 Ask me 5 questions that will improve the response you will be giving me
 I’ll share an article below .  How does the information in this article apply to an azure cloud architect  ?<br>
 
@@ -129,32 +129,32 @@ Assuming the role of a senior azure architect with 20+ experience for the rest o
 <summary>Tests Prompts</summary>
 
 #### Test yourself using Feynman technique
-<b>Create a study plan</b><br>
+<p><b>Create a study plan</b><br>
 Create a study timetable for a student revising `TOPIC`
 The timetable should cover a week.
 The timetable should break the above topic down into it's individual learning topics.
 The timetable should include food breaks, excercise breaks and sleep.
 Each day should be displayed in timeblocks.
 
-<b>Create a test</b><br>
+<p><b>Create a test</b><br>
 I have an upcoming exam that I need to practice could you please provide me with 5 multiple choice and 5 long form questions for me to practice ?
 
-<b>Create multiple choice questions</b><br>
+<p><b>Create multiple choice questions</b><br>
 Topic: `TOPIC`
 Write a multiple choice question with 1 correct answer and 4 incorrect distractor answers.
 Answers should be labelled A to E.  each answer should have a explanation
 
-<b>Create Multiple Choice Questions</b><br>
+<p><b>Create Multiple Choice Questions</b><br>
 You are a college professor in `SUBJECT`.  Create 10 multiple choice questions based on the topic of `TOPIC`.  There should be 1 correct answer and 3 incorrect answers.
 
 Allow me to answer one question at a time before providing me another question.   For each question I answer,  please advice if I am correct or incorrect and provide an explanation accordingly.
 
-<b>Short answer prompt</b><br>
+<p><b>Short answer prompt</b><br>
 You are a college professor in `SUBJECT`.  Create 5 based **short answer questions** on a topic of `TOPIC`.
 
 Allow me to answer one question at a time before providing me another question.  For each question I answer, please advice if I am correct or incorrect and provide an explanation.  Grade my answers in percentages.
 
-<b>Create Study schedule</b><br>
+<p><b>Create Study schedule</b><br>
 create a study schedule for all of the above in an appropriate amount of weeks.  I can study 2 hours every Tuesday and Thursday.  Please include time for revision and testing.
 
 
@@ -166,7 +166,7 @@ create a study schedule for all of the above in an appropriate amount of weeks. 
 <details>
 <summary>Language  Prompts</summary>
 
-<b>Learn a Language </b><br>
+<p><b>Learn a Language </b><br>
 Could you please help me practice a basic conversation in `LANGUAGE` where we talk to each other ? imagine we just met.  you will start the conversation off and wait for me to respond.  please translate each response to english.
 
 </details>
@@ -184,3 +184,4 @@ I want you to act as a math teacher.   I will provide some mathematical equation
 I don't understand how to do this math problem -3 +2x = 11, could you show me how to do it step-by-step ?
 
 </details>
+
