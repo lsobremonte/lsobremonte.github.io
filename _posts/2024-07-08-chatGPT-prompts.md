@@ -12,66 +12,31 @@ media_subpath: /assets/images/
 
 ---
 
-
 ## Learning
 <details>
 <summary>Learning Prompts</summary>
 
 <p><b>Learn a Concept</b><br>
-Explain the `TOPIC` by giving the Why ? What ? How ?
+Explain the `TOPIC` by giving the Why ? What ? How ?</p>
 <p><b>Compare (short)</b><br>
-In a short sentence explain the difference between `TOPIC A` and `TOPIC B`
+In a short sentence explain the difference between `TOPIC A` and `TOPIC B`</p>
 <p><b>Compare (Detailed)</b><br>
-Compare and contrast the following concepts `TOPIC A` and `TOPIC B`
+Compare and contrast the following concepts `TOPIC A` and `TOPIC B`</p>
 <p><b>Explain Concept</b><br>
-Explain to me in the simplest terms possible as if I’m a complete beginner for `TOPIC`
+Explain to me in the simplest terms possible as if I’m a complete beginner for `TOPIC`</p>
 <p><b>5 key points</b><br>
-What are the 5 key points I should when studying the topic above ?
+What are the 5 key points I should when studying the topic above ?</p>
 <p><b>Re-explain</b><br>
-I don't understand can you re-explain in a different way ?
+I don't understand can you re-explain in a different way ?</p>
 <p><b>Visualization Exercise</b><br>
-Guide me through a visualization exercise to help me internalize the `TOPIC` and imagine myself successfully applying it to a real-life situation.
+Guide me through a visualization exercise to help me internalize the `TOPIC` and imagine myself successfully applying it to a real-life situation.</p>
 <p><b>Create Mental model | Analogy | Metaphor</b><br>
-create a mental model or analogy or metaphor to help me understand the following concept `TOPIC`
+create a mental model or analogy or metaphor to help me understand the following concept `TOPIC`</p>
 
 <p><b>Socractic questioning</b><br>
-I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question. <br>
+I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.  your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question. </p>
 
 </details>
-
----
-
-## Data Analysis
-  <details>
-  <summary>Data Analysis Prompts</summary>
-  <ul>
-  <li>Can you <span style="color:#406CB4">load and preview the data?</span></li>
-  <li>Can you <span style="color:#406CB4">describe the data?</span></li>
-  <li>Can you <span style="color:#406CB4">explain this dataset in one paragraph?</span></li>
-  <li>Can you <span style="color:#406CB4">explain this dataset in simple terms?</span></li>
-  <li>Can you <span style="color:#406CB4">explain this dataset like I’m 5 years old?</span></li>
-  <li>What’s the <span style="color:#406CB4">main takeaway from this dataset?</span></li>
-  <li>What are the <span style="color:#406CB4">rows and columns in this dataset?</span></li>
-  <li>What <span style="color:#406CB4">insights</span> do you see here? Give me a numbered list</li>
-  <li>Can you <span style="color:#406CB4">create a graph</span> using this data?</li>
-  <li>Can you <span style="color:#406CB4">create a chart</span> using this data?</li>
-  <li>Can you <span style="color:#406CB4">create a heatmap</span> using this data?</li>
-  <li>What are the <span style="color:#406CB4">trends</span> shown in this data?</li>
-  <li>Can you <span style="color:#406CB4">list the top 10 key points</span>?</li>
-  <li>Can you <span style="color:#406CB4">write me an article</span> based on this dataset?</li>
-  <li>Can you write a <span style="color:#406CB4">one sentence recap</span> of this data?</li>
-  <li>Can you <span style="color:#406CB4">clean</span> this dataset?</li>
-  <li>Can you <span style="color:#406CB4">segment this data and create a table</span>?</li>
-  <li>Can you <span style="color:#406CB4">create a presentation</span> based on this data?</li>
-  <li>Can you <span style="color:#406CB4">create 10 visuals to represent different data points</span>?</li>
-  <li>Can you <span style="color:#406CB4">create a visual word cloud</span>?</li>
-  <li>Can you <span style="color:#406CB4">make the graphs more beautiful</span>?</li>
-  <li><span style="color:#406CB4">Create a visual chart</span>, based on this data</li>
-  <li>Show me the <span style="color:#406CB4">top trends in a visual format</span></li>
-  <li>What is the <span style="color:#406CB4">key lesson</span> from this dataset?</li>
-  </ul>
-
-  </details>
 
 ---
 
@@ -174,8 +139,8 @@ Could you please help me practice a basic conversation in `LANGUAGE` where we ta
 ---
 
 ## Math
-<details>
-<summary>Math  Prompts</summary>
+  <details>
+  <summary>Math  Prompts</summary>
 
 <p><b>Learn Math</b><br>
 I want you to act as a math teacher.   I will provide some mathematical equations or concepts, and it will be your job to explain them in easy-to-understand terms.  This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals or suggesting online resources for further study.  My first request is " I need help understanding how probability works"
@@ -184,3 +149,37 @@ I want you to act as a math teacher.   I will provide some mathematical equation
 I don't understand how to do this math problem -3 +2x = 11, could you show me how to do it step-by-step ?
 
 </details>
+
+---
+
+## Data Analysis
+  <details>
+  <summary>Data Analysis Prompts</summary>
+  <ul>
+  <li>Can you <span style="color:#406CB4">load and preview the data?</span></li>
+  <li>Can you <span style="color:#406CB4">describe the data?</span></li>
+  <li>Can you <span style="color:#406CB4">explain this dataset in one paragraph?</span></li>
+  <li>Can you <span style="color:#406CB4">explain this dataset in simple terms?</span></li>
+  <li>Can you <span style="color:#406CB4">explain this dataset like I’m 5 years old?</span></li>
+  <li>What’s the <span style="color:#406CB4">main takeaway from this dataset?</span></li>
+  <li>What are the <span style="color:#406CB4">rows and columns in this dataset?</span></li>
+  <li>What <span style="color:#406CB4">insights</span> do you see here? Give me a numbered list</li>
+  <li>Can you <span style="color:#406CB4">create a graph</span> using this data?</li>
+  <li>Can you <span style="color:#406CB4">create a chart</span> using this data?</li>
+  <li>Can you <span style="color:#406CB4">create a heatmap</span> using this data?</li>
+  <li>What are the <span style="color:#406CB4">trends</span> shown in this data?</li>
+  <li>Can you <span style="color:#406CB4">list the top 10 key points</span>?</li>
+  <li>Can you <span style="color:#406CB4">write me an article</span> based on this dataset?</li>
+  <li>Can you write a <span style="color:#406CB4">one sentence recap</span> of this data?</li>
+  <li>Can you <span style="color:#406CB4">clean</span> this dataset?</li>
+  <li>Can you <span style="color:#406CB4">segment this data and create a table</span>?</li>
+  <li>Can you <span style="color:#406CB4">create a presentation</span> based on this data?</li>
+  <li>Can you <span style="color:#406CB4">create 10 visuals to represent different data points</span>?</li>
+  <li>Can you <span style="color:#406CB4">create a visual word cloud</span>?</li>
+  <li>Can you <span style="color:#406CB4">make the graphs more beautiful</span>?</li>
+  <li><span style="color:#406CB4">Create a visual chart</span>, based on this data</li>
+  <li>Show me the <span style="color:#406CB4">top trends in a visual format</span></li>
+  <li>What is the <span style="color:#406CB4">key lesson</span> from this dataset?</li>
+  </ul>
+
+  </details>
