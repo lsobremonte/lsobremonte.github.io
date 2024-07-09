@@ -18,29 +18,28 @@ media_subpath: /assets/images/
 <details>
 <summary>Learning Prompts</summary>
 
-### Learn a Concept 
+<b>Learn a Concept</b>
 Explain the `TOPIC` by giving the Why ? What ? How ? 
-### Compare (short)
+<b>Compare (short)</b>
 In a short sentence explain the difference between `TOPIC A` and `TOPIC B`
-### Compare (Detailed)
+<b>Compare (Detailed)</b>
 Compare and contrast the following concepts `TOPIC A` and `TOPIC B`
-### Explain Concept
+<b>Explain Concept</b>
 Explain to me in the simplest terms possible as if I’m a complete beginner for `TOPIC`
-### 5 key points
+<b>5 key points</b>
 What are the 5 key points I should when studying the topic above ?
-### Re-explain
+<b>Re-explain</b>
 I don't understand can you re-explain in a different way ?
-### Visualization Exercise
+<b>Visualization Exercise</b>
 Guide me through a visualization exercise to help me internalize the `TOPIC` and imagine myself successfully applying it to a real-life situation. 
-### Create Mental model | Analogy | Metaphor
+<b>Create Mental model | Analogy | Metaphor</b>
 create a mental model or analogy or metaphor to help me understand the following concept `TOPIC`
 
-### Socractic questioning
+<b>Socractic questioning</b>
 I want you to act as a Socrate and use the socratic method to help me improve my critical thinking , logic and reason skills.   your task is to ask open-ended questions to the statement I make and after I provide a response, give me constructive feedback to each response before you ask the next question. 
 </details>
 
 ---
-
 
 ## Data Analysis
   <details>
@@ -81,19 +80,19 @@ I want you to act as a Socrate and use the socratic method to help me improve my
 <details>
 <summary>Brainstorming Prompts</summary>
 
-### Brainstorm Ideas
-Brainstorm new ideas or approaches.  prioritize ideas that are uncommon or novel for `TOPIC`
+<b>Brainstorm Ideas</b>>
+Brainstorm new ideas or approaches.  prioritize ideas that are uncommon or novel for TOPIC
 
-### Create a Mind Map
+<b>Create a Mind Map</b>
 Create a mind map.  List out the central idea, main branches, and sub-branches for `TOPIC`
 
-### Order of what to learn
+<b>Order of what to learn</b>
 I want you to act as an expert in `TOPIC` and imagine that I am a complete beginner .  What do you think are the 10 most important concepts from this subject to start with and in which order ?  give me a brief overview of those concepts and your reasoning as to why its best to learn them in the that order.
 
-### Build topic list using Pareto Principal
+<b>Build topic list using Pareto Principal</b>
 I want to learn `TOPIC`.   Can you use the Pareto principal (80/20 rule), which identifies 20% of the topic that will yield me 80% of the desired results, to create a focused learning plan for me.  
 
-### Get Project Ideas
+<b>Get Project Ideas</b>
 I am a beginner interested in learning `TOPIC`.   Can you give me some beginner project ideas to help strengthen my knowledge ?
 </details>
 
@@ -102,26 +101,24 @@ I am a beginner interested in learning `TOPIC`.   Can you give me some beginne
 <details>
 <summary>Note Taking Prompts</summary>
 
-### Summarize Notes
+<b>Summarize Notes</b>
 Summarize this and re-write on one sentence:  `(Paste Text here )`
 
-### Expand on Notes
+<b>Expand on Notes</b>
 Expand on these notes: `(Paste Text here )`
 
-### Summarize a Book
+<b>Summarize a Book</b>
 Give me the main points of the book `(Book Title)` ?
 
-### Summarize Text
+<b>Summarize Text</b>
 Summarize the following in **300 characters or less**. Then list 3 use cases or practical examples.  Briefly describe alternatives, benefits and trade-offs.
 
-### Q&A After uploading PDF
+<b>Q&A After uploading PDF</b>
 Ask me 5 questions that will improve the response you will be giving me
 I’ll share an article below .  How does the information in this article apply to an azure cloud architect  ? 
 
 Assuming the role of a senior azure architect with 20+ experience for the rest of the conversation.  I’d like to engage in a Q&A session where you’ll provide insights, analysis, and answers based on the uploaded report in PDF.
 </details>
-
-
 
 ---
 
@@ -130,35 +127,34 @@ Assuming the role of a senior azure architect with 20+ experience for the rest o
 <summary>Tests Prompts</summary>
 
 #### Test yourself using Feynman technique
-You explain what you have understood and ask it if you got it right or not
-
-### Create a study plan
+<b>Create a study plan</b>
 Create a study timetable for a student revising `TOPIC`
 The timetable should cover a week. 
-The timetable should break the above topic down into it's individual learning topics. 
+The timetable should break the above topic down into it's individual learning topics.
 The timetable should include food breaks, excercise breaks and sleep.
 Each day should be displayed in timeblocks. 
 
-### Create a test 
+<b>Create a test</b>
 I have an upcoming exam that I need to practice could you please provide me with 5 multiple choice and 5 long form questions for me to practice ? 
 
-### Create multiple choice questions
+<b>Create multiple choice questions</b>
 Topic: `TOPIC`
 Write a multiple choice question with 1 correct answer and 4 incorrect distractor answers.  
 Answers should be labelled A to E.  each answer should have a explanation
 
-### Create Multiple Choice Questions
+<b>Create Multiple Choice Questions</b>
 You are a college professor in `SUBJECT`.  Create 10 multiple choice questions based on the topic of `TOPIC`.  There should be 1 correct answer and 3 incorrect answers. 
 
 Allow me to answer one question at a time before providing me another question.   For each question I answer,  please advice if I am correct or incorrect and provide an explanation accordingly.   
 
-### Short answer prompt
+<b>Short answer prompt</b>
 You are a college professor in `SUBJECT`.  Create 5 based **short answer questions** on a topic of `TOPIC`.  
 
 Allow me to answer one question at a time before providing me another question.  For each question I answer, please advice if I am correct or incorrect and provide an explanation.   Grade my answers in percentages. 
 
-### Create Study schedule
+<b>Create Study schedule</b>
 create a study schedule for all of the above in an appropriate amount of weeks.  I can study 2 hours every Tuesday and Thursday.  Please include time for revision and testing. 
+
 
 </details>
 
@@ -167,8 +163,8 @@ create a study schedule for all of the above in an appropriate amount of weeks.�
 <details>
 <summary>Language  Prompts</summary>
 
-### Learn a Language 
-Could you please help me practice a basic conversation in `LANGUAGE `where we talk to each other ? imagine we just met.  you will start the conversation off and wait for me to respond.  please translate each response to english. 
+<b>Learn a Language </b>
+Could you please help me practice a basic conversation in `LANGUAGE` where we talk to each other ? imagine we just met.  you will start the conversation off and wait for me to respond.  please translate each response to english. 
 
 </details>
 
@@ -177,9 +173,9 @@ Could you please help me practice a basic conversation in `LANGUAGE `where we ta
 <details>
 <summary>Math  Prompts</summary>
 
-### Learn Math
+<b>Learn Math</b>
 I want you to act as a math teacher.   I will provide some mathematical equations or concepts, and it will be your job to explain them in easy-to-understand terms.  This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals or suggesting online resources for further study.  My first request is " I need help understanding how probability works"
 
-### Understand Math question
+<b>Understand Math question</b>
 I don't understand how to do this math problem -3 +2x = 11, could you show me how to do it step-by-step ?
 </details>
