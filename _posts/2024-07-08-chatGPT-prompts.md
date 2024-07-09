@@ -45,19 +45,19 @@ I want you to act as a Socrate and use the socratic method to help me improve my
 <summary>Brainstorming Prompts</summary>
 
 <p><b>Brainstorm Ideas</b><br>
-Brainstorm new ideas or approaches.  prioritize ideas that are uncommon or novel for `TOPIC`
+Brainstorm new ideas or approaches. Prioritize ideas that are uncommon or novel for `TOPIC`.</p>
 
 <p><b>Create a Mind Map</b><br>
-Create a mind map.  List out the central idea, main branches, and sub-branches for `TOPIC`
+Create a mind map. List out the central idea, main branches, and sub-branches for `TOPIC`.</p>
 
 <p><b>Order of what to learn</b><br>
-I want you to act as an expert in `TOPIC` and imagine that I am a complete beginner .  What do you think are the 10 most important concepts from this subject to start with and in which order ?  give me a brief overview of those concepts and your reasoning as to why its best to learn them in the that order.
+I want you to act as an expert in `TOPIC` and imagine that I am a complete beginner. What do you think are the 10 most important concepts from this subject to start with and in which order? Give me a brief overview of those concepts and your reasoning as to why it's best to learn them in that order.</p>
 
 <p><b>Build topic list using Pareto Principal</b><br>
-I want to learn `TOPIC`.   Can you use the Pareto principal (80/20 rule), which identifies 20% of the topic that will yield me 80% of the desired results, to create a focused learning plan for me.
+I want to learn `TOPIC`. Can you use the Pareto principle (80/20 rule), which identifies 20% of the topic that will yield me 80% of the desired results, to create a focused learning plan for me?</p>
 
 <p><b>Get Project Ideas</b><br>
-I am a beginner interested in learning `TOPIC`.   Can you give me some beginner project ideas to help strengthen my knowledge ?
+I am a beginner interested in learning `TOPIC`. Can you give me some beginner project ideas to help strengthen my knowledge?</p>
 
 </details>
 
@@ -68,22 +68,22 @@ I am a beginner interested in learning `TOPIC`.   Can you give me some beginner 
 <summary>Note Taking Prompts</summary>
 
 <p><b>Summarize Notes</b><br>
-Summarize this and re-write on one sentence:  `(Paste Text here )`
+Summarize this and re-write it in one sentence: `(Paste Text here)`</p>
 
 <p><b>Expand on Notes</b><br>
-Expand on these notes: `(Paste Text here )`
+Expand on these notes: `(Paste Text here)`</p>
 
 <p><b>Summarize a Book</b><br>
-Give me the main points of the book `(Book Title)` ?
+Give me the main points of the book `(Book Title)`?</p>
 
 <p><b>Summarize Text</b><br>
-Summarize the following in **300 characters or less**. Then list 3 use cases or practical examples.  Briefly describe alternatives, benefits and trade-offs.
+Summarize the following in **300 characters or less**. Then list 3 use cases or practical examples. Briefly describe alternatives, benefits, and trade-offs.</p>
 
 <p><b>Q&A After uploading PDF</b><br>
-Ask me 5 questions that will improve the response you will be giving me
-I’ll share an article below .  How does the information in this article apply to an azure cloud architect  ?
+Ask me 5 questions that will improve the response you will be giving me.
+I'll share an article below. How does the information in this article apply to an Azure cloud architect?</p>
 
-Assuming the role of a senior azure architect with 20+ experience for the rest of the conversation.  I’d like to engage in a Q&A session where you’ll provide insights, analysis, and answers based on the uploaded report in PDF.
+<p>Assuming the role of a senior Azure architect with 20+ years of experience for the rest of the conversation, I'd like to engage in a Q&A session where you'll provide insights, analysis, and answers based on the uploaded report in PDF.</p>
 
 </details>
 
@@ -95,33 +95,30 @@ Assuming the role of a senior azure architect with 20+ experience for the rest o
 
 #### Test yourself using Feynman technique
 <p><b>Create a study plan</b><br>
-Create a study timetable for a student revising `TOPIC`
+Create a study timetable for a student revising `TOPIC`.
 The timetable should cover a week.
-The timetable should break the above topic down into it's individual learning topics.
-The timetable should include food breaks, excercise breaks and sleep.
-Each day should be displayed in timeblocks.
+The timetable should break the above topic down into its individual learning topics.
+The timetable should include food breaks, exercise breaks, and sleep.
+Each day should be displayed in time blocks.</p>
 
 <p><b>Create a test</b><br>
-I have an upcoming exam that I need to practice could you please provide me with 5 multiple choice and 5 long form questions for me to practice ?
+I have an upcoming exam that I need to practice. Could you please provide me with 5 multiple-choice and 5 long-form questions for me to practice?</p>
 
-<p><b>Create multiple choice questions</b><br>
+<p><b>Create multiple-choice questions</b><br>
 Topic: `TOPIC`
-Write a multiple choice question with 1 correct answer and 4 incorrect distractor answers.
-Answers should be labelled A to E.  each answer should have a explanation
+Write a multiple-choice question with 1 correct answer and 4 incorrect distractor answers.
+Answers should be labeled A to E. Each answer should have an explanation.</p>
 
 <p><b>Create Multiple Choice Questions</b><br>
-You are a college professor in `SUBJECT`.  Create 10 multiple choice questions based on the topic of `TOPIC`.  There should be 1 correct answer and 3 incorrect answers.
-
-Allow me to answer one question at a time before providing me another question.   For each question I answer,  please advice if I am correct or incorrect and provide an explanation accordingly.
+You are a college professor in `SUBJECT`. Create 10 multiple-choice questions based on the topic of `TOPIC`. There should be 1 correct answer and 3 incorrect answers.
+Allow me to answer one question at a time before providing me another question. For each question I answer, please advise if I am correct or incorrect and provide an explanation accordingly.</p>
 
 <p><b>Short answer prompt</b><br>
-You are a college professor in `SUBJECT`.  Create 5 based **short answer questions** on a topic of `TOPIC`.
-
-Allow me to answer one question at a time before providing me another question.  For each question I answer, please advice if I am correct or incorrect and provide an explanation.  Grade my answers in percentages.
+You are a college professor in `SUBJECT`. Create 5 based **short answer questions** on a topic of `TOPIC`.
+Allow me to answer one question at a time before providing me another question. For each question I answer, please advise if I am correct or incorrect and provide an explanation. Grade my answers in percentages.</p>
 
 <p><b>Create Study schedule</b><br>
-create a study schedule for all of the above in an appropriate amount of weeks.  I can study 2 hours every Tuesday and Thursday.  Please include time for revision and testing.
-
+Create a study schedule for all of the above in an appropriate amount of weeks. I can study 2 hours every Tuesday and Thursday. Please include time for revision and testing.</p>
 
 </details>
 
@@ -129,24 +126,24 @@ create a study schedule for all of the above in an appropriate amount of weeks. 
 
 ## Language Learning
 <details>
-<summary>Language  Prompts</summary>
+<summary>Language Prompts</summary>
 
-<p><b>Learn a Language </b><br>
-Could you please help me practice a basic conversation in `LANGUAGE` where we talk to each other ? imagine we just met.  you will start the conversation off and wait for me to respond.  please translate each response to english.
+<p><b>Learn a Language</b><br>
+Could you please help me practice a basic conversation in `LANGUAGE` where we talk to each other? Imagine we just met. You will start the conversation off and wait for me to respond. Please translate each response to English.</p>
 
 </details>
 
 ---
 
 ## Math
-  <details>
-  <summary>Math  Prompts</summary>
+<details>
+<summary>Math Prompts</summary>
 
 <p><b>Learn Math</b><br>
-I want you to act as a math teacher.   I will provide some mathematical equations or concepts, and it will be your job to explain them in easy-to-understand terms.  This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals or suggesting online resources for further study.  My first request is " I need help understanding how probability works"
+I want you to act as a math teacher. I will provide some mathematical equations or concepts, and it will be your job to explain them in easy-to-understand terms. This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals, or suggesting online resources for further study. My first request is "I need help understanding how probability works".</p>
 
 <p><b>Understand Math question</b><br>
-I don't understand how to do this math problem -3 +2x = 11, could you show me how to do it step-by-step ?
+I don't understand how to do this math problem: -3 + 2x = 11. Could you show me how to do it step-by-step?</p>
 
 </details>
 
