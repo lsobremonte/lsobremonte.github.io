@@ -96,6 +96,7 @@ I am a beginner interested in learning `TOPIC`.   Can you give me some beginner 
 </details>
 
 ---
+
 ## Note Taking
 <details>
 <summary>Note Taking Prompts</summary>
@@ -158,6 +159,7 @@ create a study schedule for all of the above in an appropriate amount of weeks. 
 </details>
 
 ---
+
 ## Language Learning
 <details>
 <summary>Language  Prompts</summary>
@@ -168,6 +170,7 @@ Could you please help me practice a basic conversation in `LANGUAGE` where we ta
 </details>
 
 ---
+
 ## Math
 <details>
 <summary>Math  Prompts</summary>
