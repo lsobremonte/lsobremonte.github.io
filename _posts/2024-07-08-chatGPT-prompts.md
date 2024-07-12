@@ -19,7 +19,7 @@ media_subpath: /assets/images/
 <p><b>Learn a Concept</b><br>
 Explain the [TOPIC] by giving the Why ? What ? How ?</p>
 <p><b>Compare (short)</b><br>
-In a short sentence explain the difference between `TOPIC A` and `TOPIC B`</p>
+In a short sentence explain the difference between [TOPIC A] and [TOPIC B]</p>
 <p><b>Compare (Detailed)</b><br>
 Compare and contrast the following concepts [TOPIC A] and [TOPIC B]</p>
 <p><b>Explain Concept</b><br>
@@ -68,13 +68,13 @@ I am a beginner interested in learning [TOPIC]. Can you give me some beginner pr
 <summary>Note Taking Prompts</summary>
 
 <p><b>Summarize Notes</b><br>
-Summarize this and re-write it in one sentence: `(Paste Text here)`</p>
+Summarize this and re-write it in one sentence: [Paste Text here]`</p>
 
 <p><b>Expand on Notes</b><br>
-Expand on these notes: `(Paste Text here)`</p>
+Expand on these notes: [Paste Text here]</p>
 
 <p><b>Summarize a Book</b><br>
-Give me the main points of the book `(Book Title)`?</p>
+Give me the main points of the book `[Book Title] ?</p>
 
 <p><b>Summarize Text</b><br>
 Summarize the following in **300 characters or less**. Then list 3 use cases or practical examples. Briefly describe alternatives, benefits, and trade-offs.</p>
@@ -112,7 +112,7 @@ Write a multiple-choice question with 1 correct answer and 4 incorrect distracto
 Answers should be labeled A to E. Each answer should have an explanation.</p>
 
 <p><b>Create Multiple Choice Questions</b><br>
-You are a college professor in `SUBJECT`. Create 10 multiple-choice questions based on the topic of [TOPIC]. There should be 1 correct answer and 3 incorrect answers.
+You are a college professor in [TOPIC]. Create 10 multiple-choice questions based on the topic of [TOPIC]. There should be 1 correct answer and 3 incorrect answers.
 Allow me to answer one question at a time before providing me another question. For each question I answer, please advise if I am correct or incorrect and provide an explanation accordingly.</p>
 
 <p><b>Short answer prompt</b><br>
