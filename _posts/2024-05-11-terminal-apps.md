@@ -34,7 +34,7 @@ media_subpath: /assets/images/
 - [Rip Grep Moder Grep tool](#rip-grep-moder-grep-tool)
 - [ENTR](#entr)
 - [Auto Suggestions](#auto-suggestions)
-- [Vim](#vim)
+- [Neo Vim](#neo-vim)
 
 ---
 
@@ -132,7 +132,12 @@ source ~/.zshrc #reload to apply changes
 
 ### FZF
 ```bash
+# Install
 Brew install fzf
+
+# Set up fzf key bindings and fuzzy completions for shell
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.zshrc
 ```
 
 
@@ -158,7 +163,7 @@ brew install zsh-autosuggestions # Install
 
 ![Add plugin](/assets/images/content/example-add-plugin-zshrc.png)
 
-### Vim
+### Neo Vim
 ```bash
-brew install vim
+brew install nvim
 ```

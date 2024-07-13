@@ -21,6 +21,7 @@ media_subpath: /assets/images/
 - `co` - code folder
 - `icloud` - Icloud folder
 - `repo` - git repository
+- `inv` - fzf finder with nvim
 
 
 ### List files
@@ -48,4 +49,15 @@ media_subpath: /assets/images/
 ![Add plugin](/assets/images/content/github-copilot.png)
 
 - `ghce` - github copilot CLI explain command
+```bash
+# example
+gh copilot explain "sudo apt-get"
+```
+
+
+
 - `ghcs` - github copilot CLI summarize command
+```bash
+# example
+gh copilot suggest "Undo the last commit"
+```
