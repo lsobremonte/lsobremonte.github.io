@@ -1,17 +1,15 @@
 ---
-
 title: Terminal Apps
 description: a list of mac OS terminal apps
 date: 2024-05-11 09:35:00 -0600
 categories: [apps]
 tags: [cmd, macos, brew]
 image:
-  path: /assets/images/covers/cover-terminal-matrix.png
-  thumbnail: /assets/images/covers/cover-terminal-matrix.png
+  path: /assets/images/covers/cover-terminal-apps.png
+  thumbnail: /assets/images/covers/cover-terminal-apps.png
   alt: "MacOS"
 media_subpath: /assets/images/
 ---
-
 
 ## Create Table of Contents
 
@@ -39,81 +37,93 @@ media_subpath: /assets/images/
 ---
 
 ### CLI Tools to try
+
 - [ ] [7 Amazing CLI Tools You Need To Try](https://www.youtube.com/watch?v=mmqDYw9C30I&list=WL&index=2&t=573s)
 - [ ] Github Copilot command line
 - [ ] Azure CLI
 
-
-
 ### HomeBrew Installer
+
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ### Azure CLI
+
 ```bash
 brew update && brew install azure-cli
 ```
 
 ### Python
+
 ```bash
 brew install python
 ```
 
 ### Docker
+
 ```bash
 Brew install —cask docker
 ```
 
 ### TerraForm
+
 ```bash
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 ```
+
 ### Github
+
 ```bash
 brew install gh
 ```
 
 ### PIP Package Installer
+
 ```bash
 sudo easy_install pip
 ```
 
 ### Speed Test
+
 ```bash
 Brew install speedtest-cli 
 ```
 
 ### PowerShell Upgrade
+
 ```bash
 brew upgrade powershell --cask
 ```
 
 ### Matrix Code
+
 ```bash
 Brew install cmatrix
 ```
 
 ### Busyness Fancy fake terminal
+
 ```bash
 # Run in docker
 docker run --rm -it bcbcarl/hollywood
 ```
 
-
 ### NCDU Disk usage
+
 ```bash
 Brew install NCDU
 ```
 
-
 ### EZA Modern LS Tool
+
 ```bash
 Brew install eza
 ```
 
 ### BAT Modern CAT Tool
+
 ```bash
 # install
 Brew install bat --install
@@ -131,6 +141,7 @@ source ~/.zshrc #reload to apply changes
 ```
 
 ### FZF
+
 ```bash
 # Install
 Brew install fzf
@@ -140,30 +151,34 @@ Brew install fzf
 source ~/.zshrc
 ```
 
-
 ### Rip Grep Moder Grep tool
+
 ```bash
 Brew install rg
 ```
 
 ### ENTR
+
 designed to run arbitrary commands whenever files change in a specified directory.
+
 ```bash
 Brew install Entr
 ```
 
 ### Auto Suggestions
+
 It suggests commands as you type based on history and completions.
 
 ```bash
 brew install zsh-autosuggestions # Install
 ```
 
--  Add plugin to ~/.zshrc (see below screenshot)
+- Add plugin to ~/.zshrc (see below screenshot)
 
 ![Add plugin](/assets/images/content/example-add-plugin-zshrc.png)
 
 ### Neo Vim
+
 ```bash
 brew install nvim
 ```
