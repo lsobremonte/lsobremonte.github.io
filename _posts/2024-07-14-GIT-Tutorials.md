@@ -12,7 +12,8 @@ media_subpath: /assets/images/
 
 ---
 
-<a href="2024-05-04-git-cmd.md">Git Commands Page</a>
+
+[Git Commands Page]({{ site.baseurl }}{% post_url 2024-05-04-git-cmd.md %})
 
 ## Download a Repository
 ```bash
