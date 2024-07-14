@@ -12,6 +12,8 @@ media_subpath: /assets/images/
 
 ---
 
+<a href="2024-05-04-git-cmd.md">Git Commands Page</a>
+
 ## Download a Repository
 ```bash
 git clone https://github.com/<your repo>  #downloads a copy of the files
