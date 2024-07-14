@@ -41,23 +41,6 @@ media_subpath: /assets/images/
   - `cmatrix `- matrix code
   - `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
 
----
-
-
-<h1 style="text-align: center;"> GitHub Copilot CLI </h1>
-
-![Add plugin](/assets/images/content/github-copilot.png)
-
-- `ghce` - github copilot CLI explain command
-```bash
-# example
-gh copilot explain "sudo apt-get"
-```
 
 
 
-- `ghcs` - github copilot CLI summarize command
-```bash
-# example
-gh copilot suggest "Undo the last commit"
-```
