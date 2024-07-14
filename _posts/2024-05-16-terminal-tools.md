@@ -1,5 +1,5 @@
 ---
-title: Teminal Tools
+title: Terminal Tools
 description: Tools and Aliases for Terminal
 date: 2024-05-16 16:00:00 -0600
 categories: [productivity]
@@ -11,11 +11,11 @@ image:
 media_subpath: /assets/images/
 ---
 
-<h1 style="text-align: center;"> Terminal Aliases </h1>
+<h1 style="text-align: center;"> Command Line </h1>
 
 ![Add plugin](/assets/images/content/terminal-icon.png)
 
-### Folder shortcuts
+### Folder Aliases
 
 - `co` - code folder
 - `icloud` - Icloud folder
@@ -33,6 +33,7 @@ media_subpath: /assets/images/
 ### Tools
 
 - `fzf` - fuzzy finder
+- `bat` - view files with colors
 - `rg` - ripgrep
 - `btop` - resource monitor
 - `ncdu` - disk usage
