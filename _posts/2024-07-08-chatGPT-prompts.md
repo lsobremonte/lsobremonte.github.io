@@ -14,7 +14,7 @@ media_subpath: /assets/images/
 
 ## Learning
 <details>
-<summary>Learning Prompts</summary>
+<summary>Click to expand</summary>
 
 <p><b>Learn a Concept</b><br>
 Explain the [TOPIC] by giving the Why ? What ? How ?</p>
@@ -42,7 +42,7 @@ I want you to act as a Socrate and use the socratic method to help me improve my
 
 ## Brainstorming
 <details>
-<summary>Brainstorming Prompts</summary>
+<summary>Click to expand</summary>
 
 <p><b>Brainstorm Ideas</b><br>
 Brainstorm new ideas or approaches. Prioritize ideas that are uncommon or novel for [TOPIC].</p>
@@ -65,7 +65,7 @@ I am a beginner interested in learning [TOPIC]. Can you give me some beginner pr
 
 ## Note Taking
 <details>
-<summary>Note Taking Prompts</summary>
+<summary>Click to expand</summary>
 
 <p><b>Summarize Notes</b><br>
 Summarize this and re-write it in one sentence: [Paste Text here]`</p>
@@ -91,7 +91,7 @@ I'll share an article below. How does the information in this article apply to a
 
 ## Study for Tests
 <details>
-<summary>Tests Prompts</summary>
+<summary>Click to expand</summary>
 
 <p><b> # 1 - TIP !  Test yourself using Feynman technique</b><br>
 You explain what you have understood and ask it if you got it right or not</p>
@@ -128,7 +128,7 @@ Create a study schedule for all of the above in an appropriate amount of weeks. 
 
 ## Language Learning
 <details>
-<summary>Language Prompts</summary>
+<summary>Click to expand</summary>
 
 <p><b>Learn a Language</b><br>
 Could you please help me practice a basic conversation in `LANGUAGE` where we talk to each other? Imagine we just met. You will start the conversation off and wait for me to respond. Please translate each response to English.</p>
@@ -139,7 +139,7 @@ Could you please help me practice a basic conversation in `LANGUAGE` where we ta
 
 ## Math
 <details>
-<summary>Math Prompts</summary>
+<summary>Click to expand</summary>
 
 <p><b>Learn Math</b><br>
 I want you to act as a math teacher. I will provide some mathematical equations or concepts, and it will be your job to explain them in easy-to-understand terms. This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals, or suggesting online resources for further study. My first request is "I need help understanding how probability works".</p>
@@ -153,7 +153,7 @@ I don't understand how to do this math problem: -3 + 2x = 11. Could you show me 
 
 ## Data Analysis
   <details>
-  <summary>Data Analysis Prompts</summary>
+  <summary>Click to expand</summary>
   <ul>
   <li>Can you <span style="color:#406CB4">load and preview the data?</span></li>
   <li>Can you <span style="color:#406CB4">describe the data?</span></li>
