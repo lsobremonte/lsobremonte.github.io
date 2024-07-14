@@ -5,8 +5,8 @@ date: 2024-07-14 10:30:00 -0600
 categories: [ai,cmd]
 tags: [git,github,copilot]
 image:
-  path: /assets/images/covers/cover-github-copilot2.png
-  thumbnail: /assets/images/covers/cover-github-copilot2.png
+  path: /assets/images/covers/cover-github-copilot.png
+  thumbnail: /assets/images/covers/cover-github-copilot.png
   alt: "GitHub Copilot - AI for coding"
 media_subpath: /assets/images/
 
