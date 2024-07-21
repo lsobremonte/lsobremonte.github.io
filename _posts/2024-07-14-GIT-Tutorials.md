@@ -12,8 +12,7 @@ media_subpath: /assets/images/
 
 ---
 
-Path to this page: {{ page.path }}
-[Git Commands Page]({% link _posts/2024-05-04-git-cmd.md %})
+[Git Commands Page]({% link {{ page.path }}%})
 
 ## Download a Repository
 
