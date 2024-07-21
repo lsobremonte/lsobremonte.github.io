@@ -12,9 +12,10 @@ media_subpath: /assets/images/
 
 ---
 
-[Git Commands Page]({% link _posts/2024-05-04-git-cmd.md %})
+
 
 ## Download a Repository
+
 ```bash
 git clone https://github.com/<your repo>  #downloads a copy of the files
 git status #view status of the repository
@@ -27,12 +28,15 @@ git push origin main` #Upload your local commits to the main branch of remote re
 ## Initialize a New Repository
 
 **1. Initialize:**
+
 - To create a new repository from scratch, this command initializes an empty Git repository in your current folder.
 
 ```bash
 git init
 ```
+
 **2. Stage Files:**
+
 - To add files to the staging area for the first commit, this command stages all new and modified files in the current directory.
 
 ```bash
@@ -40,6 +44,7 @@ git add .
 ```
 
 **3. Commit Changes:**
+
 - This creates a commit with the changes you staged.
 
 ```bash
@@ -47,6 +52,7 @@ git commit -m "Initial commit"
 ```
 
 **4. Push Initial Commit:**
+
   - To push the initial commit to the remote repository, this command uploads your changes to the main branch on the remote repository.
 
 ```bash
@@ -54,6 +60,7 @@ git push -u origin main
 ```
 
 **5. Check Repository Status:**
+
 - To view the current status of the repository, this command shows which files are staged, unstaged, or untracked.
 
 ```bash
@@ -106,17 +113,20 @@ To ensure that both Machine A and Machine B are synchronized with the remote Git
 ---
 
 ### Maintenance - Regular Syncing to maintain consistency
+
 By following these practices, both Machine A and Machine B will stay in sync with the remote repository and each other, minimizing the need for force pushes and hard resets.
 
 #### On Either Machine (A or B)
 
-1. **Pull Latest Changes Before Making Updates**:
+1. **Pull Latest Changes Before Making Updates**
+
    ```sh
    cd ~/dotfiles
    git pull origin main
    ```
 
 2. **Make Updates, Commit, and Push**:
+
    ```sh
    git add .
    git commit -m "Describe your changes"
@@ -125,8 +135,12 @@ By following these practices, both Machine A and Machine B will stay in sync wit
 
 #### On the Other Machine (A or B)
 
-3. **Pull Latest Changes to Sync**:
+3.**Pull Latest Changes to Sync**:
+
    ```sh
    cd ~/dotfiles
    git pull origin main
    ```
+
+
+{{ page.path }}
