@@ -53,7 +53,7 @@ git commit -m "Initial commit"
 
 **4. Push Initial Commit:**
 
-  - To push the initial commit to the remote repository, this command uploads your changes to the main branch on the remote repository.
+- To push the initial commit to the remote repository, this command uploads your changes to the main branch on the remote repository.
 
 ```bash
 git push -u origin main
@@ -72,7 +72,6 @@ git status
 ## Fix Conflict - Sync locals repos with remote GIT repository
 
 To ensure that both Machine A and Machine B are synchronized with the remote Git repository after resolving conflicts.
-
 
 ### Sync Mac A and Mac B with Remote GIT
 
@@ -109,7 +108,6 @@ To ensure that both Machine A and Machine B are synchronized with the remote Git
 - **Fetch (`git fetch origin`)**: This command will download objects and refs from another repository.
 - **Reset (`git reset --hard origin/main`)**: This command will reset your local branch to match the state of the remote branch, discarding any local changes that are not in the remote branch.
 
-
 ---
 
 ### Maintenance - Regular Syncing to maintain consistency
@@ -141,6 +139,5 @@ By following these practices, both Machine A and Machine B will stay in sync wit
    cd ~/dotfiles
    git pull origin main
    ```
-
 
 {{ page.path }}
