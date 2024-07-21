@@ -12,7 +12,7 @@ media_subpath: /assets/images/
 
 ---
 
-
+Path to this page: {{ page.path }}
 
 ## Download a Repository
 
