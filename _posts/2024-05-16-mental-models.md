@@ -8,7 +8,7 @@ categories: [productivity]
 tags: [mindset, problem-solving, mental-models]
 image:
   path: /assets/images/covers/cover-mental-model2.jpeg
-  thumbnail: /assets/images/covers/cover-mental-model2.jpeg
+  thumbnail: /assets/images/covers/cover-mental-models.jpeg
   alt: "Mental Models"
 media_subpath: /assets/images/
 
@@ -43,7 +43,7 @@ Simplified representations of how the world works. They help us understand compl
 
 ---
 
-### General 
+### General
 
 - **Map is not the territory:** This model teaches us that a map is not the same thing as the real world. Maps are simplifications and can be misleading.
 
