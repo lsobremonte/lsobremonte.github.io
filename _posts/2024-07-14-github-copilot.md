@@ -12,6 +12,9 @@ media_subpath: /assets/images/
 
 ---
 
+**[Links]**
+[VSCode]({% link _posts/2024-05-18-vscode.md %})
+
 # What is GitHub Copilot ?
 GitHub Copilot is an AI-powered code completion tool that assists developers by suggesting code snippets and functions as they type, enhancing coding efficiency and productivity.
 
