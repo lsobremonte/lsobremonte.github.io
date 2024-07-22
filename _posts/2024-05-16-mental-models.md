@@ -7,8 +7,8 @@ categories: [productivity]
 
 tags: [mindset, problem-solving, mental-models]
 image:
-  path: /assets/images/covers/cover-mental-models.jpeg
-  thumbnail: /assets/images/covers/cover-mental-models.jpeg
+  path: /assets/images/covers/cover-mental-models.png
+  thumbnail: /assets/images/covers/cover-mental-models.png
   alt: "Mental Models"
 media_subpath: /assets/images/
 
