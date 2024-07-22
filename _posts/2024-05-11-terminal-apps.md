@@ -11,6 +11,9 @@ image:
 media_subpath: /assets/images/
 ---
 
+**[Links]**
+[Terminal Tools]({% link _posts/2024-05-16-terminal-tools.md %})
+
 ## Create Table of Contents
 
 - [CLI Tools to try](#cli-tools-to-try)

@@ -11,6 +11,9 @@ image:
 media_subpath: /assets/images/
 ---
 
+**[Links]**
+[Terminal Apps]({% link _posts/2024-05-11-terminal-apps.md %})
+
 <h1 style="text-align: center;"> Command Line </h1>
 
 ![Add plugin](/assets/images/content/terminal-icon.png)
