@@ -16,7 +16,7 @@ media_subpath: /assets/images/
 **[Links]**
 [Terminal Tools]({% link _posts/2024-05-16-terminal-tools.md %})
 
-**What is Multipass ?**
+## **What is Multipass ?**
 It's a Ubuntu Linux emulator you can run on MAC OS terminal
 
 ### Install
