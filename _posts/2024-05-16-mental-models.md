@@ -14,10 +14,35 @@ media_subpath: /assets/images/
 
 ---
 
-# Summary
+## **What are Mental Models ?**
+
 Simplified representations of how the world works. They help us understand complex things to make better **decisions** and **problem solving**.
 
+### Order of Most Useful
+Metaphor > Analogy > `Mental Model`
+
+### How to Build Effective Mental Models
+
+1.**Break Down Concepts:**
+
+- Start with the basics and gradually build up to more complex ideas. Understand the foundational elements first.
+
+2.**Use Visual Aids:**
+
+- Diagrams, flowcharts, and mind maps can help visualize how different parts of a system interact.
+
+3.**Relate to Real-World Examples:**
+
+- Relate abstract concepts to real-world scenarios to make them more tangible.
+
+4.**Practice and Application:**
+
+- Apply what you learn through hands-on practice, experiments, and problem-solving exercises. This reinforces the mental model.
+
+---
+
 ### Simplify Complexities
+
 - **80/20 rule:** 80% of results come from 20% of efforts.
 
 - **Theory of constraints:** Identify and address the main bottleneck to improve the system.
@@ -31,6 +56,7 @@ Simplified representations of how the world works. They help us understand compl
 ---
 
 ### Reveal Counterintuitive Insights
+
 - **Interest-based counting:** The goal is to find common ground and create solutions that are win-win rather than win-lose.
 
 - **Via negativa:** Focus on reducing negatives rather than adding positives.
@@ -66,6 +92,7 @@ Simplified representations of how the world works. They help us understand compl
 ---
 
 ### Learning
+
 - **Problem solving is search:** Our brains solve problems by searching through a problem space, like a maze. This space contains all the possible solutions, and we need to find the one that leads to the desired outcome. The more complex the problem, the larger the search space and the harder it is to find the solution.
 
 - **Memory strengthens by retrieval:** Retrieving information from memory strengthens the memory more than just seeing it again. Testing yourself on what you learned is a great way to improve your memory and solidify the information in your brain.

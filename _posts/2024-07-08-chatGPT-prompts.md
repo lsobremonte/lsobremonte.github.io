@@ -11,8 +11,12 @@ image:
 media_subpath: /assets/images/
 
 ---
+## Commands
+
+`⌘ + k` - clear chat history
 
 ## Learning
+
 <details>
 <summary>Click to expand</summary>
 
@@ -41,6 +45,7 @@ I want you to act as a Socrate and use the socratic method to help me improve my
 ---
 
 ## Brainstorming
+
 <details>
 <summary>Click to expand</summary>
 
@@ -64,6 +69,7 @@ I am a beginner interested in learning [TOPIC]. Can you give me some beginner pr
 ---
 
 ## Note Taking
+
 <details>
 <summary>Click to expand</summary>
 
@@ -90,6 +96,7 @@ I'll share an article below. How does the information in this article apply to a
 ---
 
 ## Study for Tests
+
 <details>
 <summary>Click to expand</summary>
 
@@ -127,6 +134,7 @@ Create a study schedule for all of the above in an appropriate amount of weeks. 
 ---
 
 ## Language Learning
+
 <details>
 <summary>Click to expand</summary>
 
@@ -138,6 +146,7 @@ Could you please help me practice a basic conversation in `LANGUAGE` where we ta
 ---
 
 ## Math
+
 <details>
 <summary>Click to expand</summary>
 
@@ -152,6 +161,7 @@ I don't understand how to do this math problem: -3 + 2x = 11. Could you show me 
 ---
 
 ## Data Analysis
+
   <details>
   <summary>Click to expand</summary>
   <ul>
