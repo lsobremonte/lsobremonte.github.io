@@ -2,7 +2,7 @@
 title: Terraform
 description: Deploy Infrastructure as Code (IaC)
 date: 2024-07-22 15:00:00 -0600
-categories: [IaC,cmd,devops]
+categories: [cmd]
 tags: [terraform]
 image:
   path: /assets/images/covers/cover-terraform.png

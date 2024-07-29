@@ -2,7 +2,7 @@
 title: Github Copilot
 description: AI for Coding
 date: 2024-07-14 10:30:00 -0600
-categories: [ai,cmd]
+categories: [AI,cmd]
 tags: [git,github,copilot]
 image:
   path: /assets/images/covers/cover-github-copilot.png

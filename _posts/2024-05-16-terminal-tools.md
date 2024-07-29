@@ -2,8 +2,8 @@
 title: Terminal Tools
 description: Tools and Aliases for Terminal
 date: 2024-05-16 16:00:00 -0600
-categories: [productivity]
-tags: [cmd, alfred, iterm2, tools]
+categories: [cmd]
+tags: [iterm2]
 image:
   path: assets/images/covers/cover-terminal-tools.png
   thumbnail: assets/images/covers/cover-terminal-tool.png

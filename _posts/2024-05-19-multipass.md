@@ -3,8 +3,8 @@
 title: Multipass
 description: Multipass is a Ubuntu Linux emulator you can run on MAC OS terminal
 date: 2024-05-19 9:45:00 -0600
-categories: [tools,virtualization]
-tags: [cmd,linux,ubuntu,multipass]
+categories: [cmd,virtualization]
+tags: [linux,ubuntu,multipass]
 image:
   path: /assets/images/covers/cover-multipass.png
   thumbnail: /assets/images/covers/cover-multipass.png

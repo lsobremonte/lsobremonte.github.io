@@ -2,8 +2,8 @@
 title: Git Tutorials
 description: Git tutorials for beginners
 date: 2024-07-14 10:00:00 -0600
-categories: [ci/cd,cmd]
-tags: [git,github]
+categories: [cmd]
+tags: [CI/CD,git,github]
 image:
   path: /assets/images/covers/cover-git-tutorials.png
   thumbnail: /assets/images/covers/cover-git-tutorials.png
