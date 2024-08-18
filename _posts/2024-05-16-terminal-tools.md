@@ -12,7 +12,7 @@ media_subpath: /assets/images/
 ---
 
 **[Links]**
-[Terminal Apps]({% link _posts/2024-05-11-terminal-apps.md %}) | [Multipass]({% link_posts/2024-05-19-multipass.md %})
+[Terminal Apps]({% link _posts/2024-05-11-terminal-apps.md %})
 
 <h1 style="text-align: center;"> Command Line </h1>
 
