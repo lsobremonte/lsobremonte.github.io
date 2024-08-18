@@ -1,7 +1,7 @@
 ---
 layout: cmd
 icon: fas fa-play
-order: 1
+order: 5
 ---
 
 # Placeholder for the command line interface
