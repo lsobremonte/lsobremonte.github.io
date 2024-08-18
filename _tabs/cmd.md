@@ -1,5 +1,4 @@
 ---
-layout: page
 icon: fas fa-play
 order: 5
 ---
