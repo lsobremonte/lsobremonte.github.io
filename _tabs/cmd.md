@@ -8,7 +8,7 @@ order: 5
 A quick access to the most common commands used in the terminal.
 
 **[Links]**
-[Terminal Tools]({% link _posts/2024-05-16-terminal-tools.md %}) | [RayCast]({% link_posts/2024-07-07-Raycast.md %})
+[Terminal Tools]({% link _posts/2024-05-16-terminal-tools.md %})
 
 ![Add plugin](/assets/images/content/terminal-icon.png)
 

@@ -12,8 +12,7 @@ media_subpath: /assets/images/
 ---
 
 **[Links]**
-[Terminal Apps]({% link _posts/2024-05-11-terminal-apps.md %}) | [Multipass]({% link _posts/2024-05-19-multipass.md %})
-
+[Terminal Apps]({% link _posts/2024-05-11-terminal-apps.md %}) | [Multipass]({% link_posts/2024-05-19-multipass.md %})
 
 <h1 style="text-align: center;"> Command Line </h1>
 
@@ -42,5 +41,5 @@ media_subpath: /assets/images/
 - `btop` - resource monitor
 - `ncdu` - disk usage
 - `speedtest-cli` - speed test
-- `cmatrix `- matrix code
+- `cmatrix`- matrix code
 - `docker run --rm -it bcbcarl/hollywood` - hollywood terminal
