@@ -44,3 +44,7 @@ A quick access to the most common commands used in the terminal.
 - `repo` - List git repos  ?
 - `bm` - Search Safari bookmarks
 - `bme` - Search Edge Bookmarks
+
+### ChatGPT
+
+- `opt + spacebar` - Ask a question to ChatGPT
