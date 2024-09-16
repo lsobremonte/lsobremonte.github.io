@@ -8,7 +8,7 @@ order: 5
 A quick access to the most common commands used in the terminal.
 
 **[Links]**
-[ Azure CLI ]({% link _posts/2024-05-18-azureCLI.md %})
+[ Azure CLI ]({% link _posts/2024-05-18-azureCLI.md %}) | [ Terminal Tools ]({% link _posts/2024-05-16-terminal-tools.md %})
 
 
 ## **Terminal Folder Aliases**
