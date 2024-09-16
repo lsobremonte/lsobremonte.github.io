@@ -8,14 +8,14 @@ order: 5
 A quick access to the most common commands used in the terminal.
 
 **[Links]**
-[ Azure CLI ]({% link _posts/2024-05-18-azureCLI.md %})
-[ Terminal Tools ]({% link_posts/2024-05-16-terminal-tools.md %})
-[Terminal Apps ]({% link _posts/2024-05-11-terminal-apps.md %})
-[ Multipass ]({% link_posts/2024-06-15-multipass.md %})
-[ Git Commands]({% link _posts/2024-05-04-git-cmd.md %})
-[ Git Tutorials ]({% link_posts/2024-07-14-GIT-Tutorials.md %})
-[ Docker Commands ]({% link _posts/2024-06-22-docker-cmd.md %})
-[ Terraform Commands ]({% link_posts/2024-06-22-terraform-cmd.md %})
+[ Azure CLI ]({% link _tabs/2024-05-18-azureCLI.md %})
+[ Terminal Tools ]({% link _tabs/2024-05-16-terminal-tools.md %})
+[Terminal Apps ]({% link _tabs/2024-05-11-terminal-apps.md %})
+[ Multipass]({% link _tabs/2024-06-15-multipass.md %})
+[ Git Commands]({% link _tabs/2024-05-04-git-cmd.md %})
+[ Git Tutorials ]({% link _tabs/2024-07-14-GIT-Tutorials.md %})
+[ Docker Commands ]({% link _tabs/2024-06-22-docker-cmd.md %})
+[ Terraform Commands ]({% link _tabs/2024-06-22-terraform-cmd.md %})
 
 ## **Terminal Folder Aliases**
 
