@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-01-26-first-2025-post.md",
-                "mode": "preview",
+                "file": "2025-01-26-well-architected-framework.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-26-first-2025-post"
+              "title": "2025-01-26-well-architected-framework"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-01-26-first-2025-post.md",
+                "file": "2025-01-26-well-architected-framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-01-26-first-2025-post"
+              "title": "Backlinks for 2025-01-26-well-architected-framework"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-01-26-first-2025-post.md",
+                "file": "2025-01-26-well-architected-framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-01-26-first-2025-post"
+              "title": "Outgoing links from 2025-01-26-well-architected-framework"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-01-26-first-2025-post.md"
+                "file": "2025-01-26-well-architected-framework.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-01-26-first-2025-post"
+              "title": "Outline of 2025-01-26-well-architected-framework"
             }
           }
         ]
@@ -164,7 +164,10 @@
   },
   "active": "2c0aac87283a157f",
   "lastOpenFiles": [
+    "2025-01-26-first-2025-post.md",
     "2024-07-22-ms-graph.md",
-    "2025-01-26-first-2025-post.md"
+    "2025-01-26-well-architected-framework.md",
+    "2024-07-22-fzf.md",
+    "2024-05-04-git-cmd.md"
   ]
 }
