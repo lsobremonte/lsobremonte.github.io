@@ -3,13 +3,12 @@ title: Terraform
 description: Deploy Infrastructure as Code (IaC)
 date: 2024-07-22 15:00:00 -0600
 categories: [Command-tool]
-tags: [terraform,cmd,devops,azure]
+tags: [terraform, cmd, devops, azure]
 image:
   path: /assets/images/covers/cover-terraform.png
   thumbnail: /assets/images/covers/cover-terraform.png
   alt: "Terraform - Deploy Infrastructure as Code (IaC)"
 media_subpath: /assets/images/
-
 ---
 
 ## **What is Terraform ?**
@@ -26,7 +25,7 @@ Terraform is an open-source tool that lets you define and deploy Azure infrastru
 
 ---
 
-## ✅ Step 1: Install Terraform (macOS)
+## **✅ Step 1: Install Terraform (macOS)**
 
 ```bash
 brew tap hashicorp/tap
@@ -35,7 +34,7 @@ brew install hashicorp/tap/terraform
 
 ---
 
-## 🔐 Step 2: Authenticate with Azure
+## ** Step 2: Authenticate with Azure**
 
 ### A. Login to Azure
 
@@ -55,7 +54,7 @@ az account show -o json
 
 ---
 
-## 🧾 Step 3: Create & Assign Service Principal
+## **🧾 Step 3: Create & Assign Service Principal**
 
 ### A. Create a Service Principal
 
@@ -79,7 +78,7 @@ export ARM_SUBSCRIPTION_ID="<SUBSCRIPTION_ID>"
 
 ---
 
-## 🛡️ Step 4: Grant Management Group Permissions (Optional for Policy)
+## ** Step 4: Grant Management Group Permissions (Optional for Policy)**
 
 ### A. Check Current Role Assignment
 
@@ -102,7 +101,7 @@ az role assignment create \
 
 ---
 
-## 🧩 Step 5: View Custom Policies (Optional)
+## ** Step 5: View Custom Policies (Optional)**
 
 ```bash
 az policy definition list \
@@ -113,8 +112,7 @@ az policy definition list \
 
 ---
 
-
-## 🚀 Step 6: Core Terraform Commands
+## ** Step 6: Core Terraform Commands**
 
 | Command                         | Description                                                             |
 | ------------------------------- | ----------------------------------------------------------------------- |
@@ -126,45 +124,43 @@ az policy definition list \
 
 ---
 
-
-
 ### **Basic Commands**
 
-|Purpose|Command|
-|---|---|
-|Check version|`terraform version`|
-|Format config|`terraform fmt`|
-|Validate syntax|`terraform validate`|
-|Inspect providers|`terraform providers`|
+| Purpose           | Command               |
+| ----------------- | --------------------- |
+| Check version     | `terraform version`   |
+| Format config     | `terraform fmt`       |
+| Validate syntax   | `terraform validate`  |
+| Inspect providers | `terraform providers` |
 
 ---
 
 ### **Execution (Plan & Apply)**
 
-|Purpose|Command|
-|---|---|
-|Preview changes|`terraform plan`|
-|Save plan to file|`terraform plan -out=<file>`|
-|Apply changes|`terraform apply`|
-|Apply saved plan|`terraform apply <file>`|
-|Apply specific resource|`terraform apply -target=<resource>`|
-|Pass inline variable|`terraform apply -var='key=value'`|
-|Plan for destruction|`terraform plan -destroy`|
+| Purpose                 | Command                              |
+| ----------------------- | ------------------------------------ |
+| Preview changes         | `terraform plan`                     |
+| Save plan to file       | `terraform plan -out=<file>`         |
+| Apply changes           | `terraform apply`                    |
+| Apply saved plan        | `terraform apply <file>`             |
+| Apply specific resource | `terraform apply -target=<resource>` |
+| Pass inline variable    | `terraform apply -var='key=value'`   |
+| Plan for destruction    | `terraform plan -destroy`            |
 
 ---
 
 ### **State Management**
 
-|Purpose|Command|
-|---|---|
-|Show current state|`terraform show`|
-|List all resources|`terraform state list`|
-|Show one resource|`terraform state show <resource>`|
+| Purpose            | Command                           |
+| ------------------ | --------------------------------- |
+| Show current state | `terraform show`                  |
+| List all resources | `terraform state list`            |
+| Show one resource  | `terraform state show <resource>` |
 
 ---
 
 ### **Optional Directory Context**
 
-Use `-chdir=<path>` if working outside the current directory:
+Use `-chdir=<path>` if working outside the current directory:
 
 `terraform -chdir=./path plan`
