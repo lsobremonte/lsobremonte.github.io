@@ -68,19 +68,20 @@ A quick access to the most common commands used in the terminal.
 - ``cmd + enter + spacebar ``- find a file
 
 ### **Alfred Web Shortcuts**
-| Keyword | Display Text                       |
-| ------- | ---------------------------------- |
-| am      | Amazon Canada Search               |
-| icon    | Icon Search 1                      |
-| icon2   | Icon Search 2                      |
-| kb      | Open up Knowledge Base Github Site |
-| redd    | Reddit Search                      |
-| img     | Search Google Images for '{query}' |
-| maps    | Search Apple Maps for '{query}'    |
-| wiki    | Search Wikipedia for '{query}'     |
-| yt      | Search YouTube for '{query}'       |
-| weather | Weather for '{query}'              |
-| google  | Search Google for '{query}'        |
+| Keyword | Display Text                             |
+|---------|-------------------------------------------|
+| am      | Amazon Canada Search                      |
+| icon    | Icon Search 1                             |
+| icon2   | Icon Search 2                             |
+| kb      | Open up Knowledge Base Github Site        |
+| redd    | Reddit Search                             |
+| img     | Search Google Images for '{query}'        |
+| maps    | Search Apple Maps for '{query}'           |
+| wiki    | Search Wikipedia for '{query}'            |
+| yt      | Search YouTube for '{query}'              |
+| weather | Weather for '{query}'                     |
+| google  | Search Google for '{query}'               |
+
 
 ### Apple Intelligence
 - ``cmd + option + s``  - Show writing tools
