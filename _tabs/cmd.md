@@ -1,11 +1,10 @@
 ---
 icon: fas fa-play
 order: 5
-image:
-  path: /assets/images/covers/cover-starthere.png
-  thumbnail: /assets/images/covers/cover-starthere.png
-  alt: "Start Here"
+
 ---
+
+![Start Here](/assets/images/covers/cover-starthere.png)
 
 # Purpose
 
