@@ -1,6 +1,10 @@
 ---
 icon: fas fa-play
 order: 5
+image:
+  path: /assets/images/covers/cover-starthere.png
+  thumbnail: /assets/images/covers/cover-starthere.png
+  alt: "Start Here"
 ---
 
 # Purpose
@@ -12,7 +16,7 @@ A quick access to the most common commands used in the terminal.
 
 
 ### FZF
-[[CMD - Search]]
+
 - `ctrl + I `- Completion
 - `ctrl + T `- File search
 - `ctrl + R` - Search command history
@@ -25,7 +29,7 @@ A quick access to the most common commands used in the terminal.
 - `cmd + option + e` - toggle between note and Excalidraw
 
 ### VSCode
-[[CMD - VSCode]]
+
 - `cmd + Shift + P` - Opens the command palette
 - `cmd + p` - go to file
 - `cmd + b` - toggle side bar
@@ -33,26 +37,32 @@ A quick access to the most common commands used in the terminal.
 - `ctrl + shift + backspace` - delete entire lines
 - `option + up/down` - move line up/down
 - `shift + cmd + \` - jump to matching bracket
+
 ### Cursor AI
 - ``cmd + l ``- chat window
 - ``cmd + k``  - edit code directly 
 - ``cmd + j`` - terminal helper
 - ``cmd + i `` - composer ??
 - ``cmd + j`` - search code base ? ?
+
 ### Terminal Open
 - ``code .`` - opens up VScode folder
 - ``open .`` - opens up Finder window
+
+
 ### Terminal Folder Aliases
 - `co` - code folder
 - `icloud` - Icloud folder
 - `repo` - git repository
 - `inv` - fzf finder to **open a file into Neo Vim**
+
 ### Terminal List files
 - `lf` - **files** only
 - `ld` - **directories** only
 - `lh` - **hidden** files only
 - `ll` - **detailed** long list
 - `lt` - sort by **modified time**
+
 ### Terminal Navigation
 - ``ctrl + a`` - move cursor **beginning** of line
 - ``ctrl + e`` - move cursor  **end** of the line
@@ -68,19 +78,7 @@ A quick access to the most common commands used in the terminal.
 - ``cmd + enter + spacebar ``- find a file
 
 ### **Alfred Web Shortcuts**
-| Keyword | Display Text                             |
-|---------|-------------------------------------------|
-| am      | Amazon Canada Search                      |
-| icon    | Icon Search 1                             |
-| icon2   | Icon Search 2                             |
-| kb      | Open up Knowledge Base Github Site        |
-| redd    | Reddit Search                             |
-| img     | Search Google Images for '{query}'        |
-| maps    | Search Apple Maps for '{query}'           |
-| wiki    | Search Wikipedia for '{query}'            |
-| yt      | Search YouTube for '{query}'              |
-| weather | Weather for '{query}'                     |
-| google  | Search Google for '{query}'               |
+![Alfred Web Shortcuts](/assets/images/content/alfred.webshortcuts.png)
 
 
 ### Apple Intelligence
