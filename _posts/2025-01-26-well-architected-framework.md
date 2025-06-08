@@ -4,7 +4,7 @@ description: Azure workload framework guideline
 date: 2025-01-26 09:00:00 -0600
 categories:
   - Cloud
-  - Microsoft
+  
 tags:
   - azure
 image:

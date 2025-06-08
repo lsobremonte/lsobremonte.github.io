@@ -3,7 +3,7 @@ title: chatGPT
 description: Collection of prompts for chatGPT
 date: 2024-07-08 13:00:00 -0600
 categories:
-- AI
+- Tools
 tags: [chatGPT]
 image:
   path: /assets/images/covers/cover-chatgpt.png
