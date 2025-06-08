@@ -16,28 +16,32 @@ media_subpath: /assets/images/
 
 ## Create Table of Contents
 
-- [CLI Tools to try](#cli-tools-to-try)
-- [HomeBrew Installer](#homebrew-installer)
-- [Azure CLI](#azure-cli)
-- [Python](#python)
+- [HomeBrew](#homebrew-installer)
+- [FZF](#fzf)
+- [BAT](#bat)
+- [EZA](#eza)
+- [RipGrep](#ripgrep)
+- [Zoxide](#zoxide)
+- [ZSH-Auto Suggestions](#zsh-auto-suggestions)
+- [ENTR](#entr)
 - [Docker](#docker)
-- [TerraForm](#terraform)
+- [Lazy Docker](#lazy-docker)
+- [OrbStack](#orbstack)
 - [Github](#github)
-- [PIP Package Installer](#pip-package-installer)
+- [Lazy Git](#lazy-git)
+- [Neo Vim](#neo-vim)
+- [Python](#python)
+- [PIP](#pip)
+- [Azure CLI](#azure-cli)
+- [TerraForm](#terraform)
+- [TopGrade](#topgrade)
+- [NCDU](#ncdu)
 - [Speed Test](#speed-test)
 - [PowerShell Upgrade](#powershell-upgrade)
+- [Nmap](#nmap)
+- [Glow](#glow)
 - [Matrix Code](#matrix-code)
 - [Busyness](#busyness)
-- [NCDU](#ncdu)
-- [EZA](#eza)
-- [BAT](#bat)
-- [FZF](#fzf)
-- [RipGrep](#ripgrep)
-- [ENTR](#entr)
-- [Auto Suggestions](#auto-suggestions)
-- [Neo Vim](#neo-vim)
-- [TopGrade](#topgrade)
-- [Linux Tools](#linux-tools)
 
 ---
 
@@ -49,103 +53,17 @@ media_subpath: /assets/images/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Azure CLI
+### FZF
 
-Command-line tool that provides a set of commands used to **manage Azure resources**.
-
-```bash
-brew update && brew install azure-cli
-```
-
-### Python
-
-High-level, interpreted, and general-purpose **programming language**.
+Command-line fuzzy**finder** that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
 
 ```bash
-brew install python
-```
+# Install
+Brew install fzf
 
-### Docker
-
-Set of platform as a service products that use **OS-level virtualization** to deliver software in packages called **containers**.
-
-```bash
-Brew install —cask docker
-```
-
-### TerraForm
-
-Open-source**infrastructure as code** software tool created by HashiCorp.
-
-```bash
-brew tap hashicorp/tap
-brew install hashicorp/tap/terraform
-```
-
-### Github
-
-Web-based platform used for **version control** and collaboration.
-
-```bash
-brew install gh
-```
-
-### PIP Package Installer
-
-**Package installer** for Python.
-
-```bash
-sudo easy_install pip
-```
-
-### Speed Test
-
-Command-line interface for **testing internet bandwidth** using speedtest.net.
-
-```bash
-Brew install speedtest-cli 
-```
-
-### PowerShell Upgrade
-
-Task **automation** and configuration management framework from Microsoft.
-
-```bash
-brew upgrade powershell --cask
-```
-
-### Matrix Code
-
-Command-line program that shows a **scrolling 'Matrix'** like screen in your terminal.
-
-```bash
-Brew install cmatrix
-cmatrix
-```
-
-### Busyness
-
-**Fake terminal** that emulates the look of a Hollywood hacking scene.
-
-```bash
-brew install hollywood
-docker run --rm -it bcbcarl/hollywood
-```
-
-### NCDU
-
-**Disk usage** analyzer with an ncurses interface.
-
-```bash
-Brew install NCDU
-```
-
-### EZA
-
-**Modern LS** command with a more user-friendly output.
-
-```bash
-Brew install eza
+# Set up fzf key bindings and fuzzy completions for shell
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.zshrc
 ```
 
 ### BAT
@@ -165,20 +83,14 @@ export BAT_THEME="Coldark-Dark"
 # Set theme permanently
 echo 'export BAT_THEME="TwoDark"' >> ~/.bashrc
 source ~/.zshrc #reload to apply changes
-
 ```
 
-### FZF
+### EZA
 
-Command-line fuzzy**finder** that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
+**Modern LS** command with a more user-friendly output.
 
 ```bash
-# Install
-Brew install fzf
-
-# Set up fzf key bindings and fuzzy completions for shell
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source ~/.zshrc
+Brew install eza
 ```
 
 ### RipGrep
@@ -189,49 +101,7 @@ Line-oriented search tool that **recursively searches** your current directory f
 Brew install rg
 ```
 
-### ENTR
-
-Utility for **running arbitrary commands when files change**. It is
-designed to run arbitrary commands whenever files change in a specified directory.
-
-```bash
-Brew install Entr
-```
-
-### Auto Suggestions
-
-Plugin that **suggests commands** as you type based on history and completions.
-
-```bash
-brew install zsh-autosuggestions # Install
-```
-
-- Add plugin to ~/.zshrc (see below screenshot)
-
-![Add plugin](/assets/images/content/example-add-plugin-zshrc.png)
-
-### Neo Vim
-
-Highly configurable **text editor** built to enable efficient text editing.
-
-```bash
-brew install nvim
-```
-
-### TopGrade
-
-Command-line utility that **upgrades** all your installed packages.
-
-```bash
-brew install topgrade
-
-# Basic usage
-topgrade
-```
-
-### Linux Tools
-
-#### Zoxide
+### Zoxide
 
 A smarter **cd command** that learns your habits and provides quick directory navigation.
 
@@ -246,20 +116,35 @@ z foo    # Jump to a directory containing "foo"
 zi       # Interactive selection
 ```
 
-#### Nmap
+### ZSH-Auto Suggestions
 
-Network exploration and security auditing tool that **scans networks** for open ports, running services, and live hosts.
+Plugin that **suggests commands** as you type based on history and completions.
 
 ```bash
-brew install nmap
-
-# Basic usage
-nmap localhost              # Scan localhost
-nmap 192.168.1.0/24        # Scan entire subnet
-nmap -p 80,443 example.com # Scan specific ports
+brew install zsh-autosuggestions # Install
 ```
 
-#### Lazy Docker
+- Add plugin to ~/.zshrc (see below screenshot)
+
+![Add plugin](/assets/images/content/example-add-plugin-zshrc.png)
+
+### ENTR
+
+Utility for **running arbitrary commands when files change**. It is designed to run arbitrary commands whenever files change in a specified directory.
+
+```bash
+Brew install Entr
+```
+
+### Docker
+
+Set of platform as a service products that use **OS-level virtualization** to deliver software in packages called **containers**.
+
+```bash
+Brew install —cask docker
+```
+
+### Lazy Docker
 
 A simple terminal UI for both **docker** and **docker-compose**, written in Go with the gocui library.
 
@@ -273,7 +158,28 @@ lazydocker  # Launch the UI
 # Press 'i' to view images
 ```
 
-#### Lazy Git
+### OrbStack
+
+A fast, light, and simple **Docker** & **Kubernetes** development environment for macOS.
+
+```bash
+brew install orbstack
+
+# Basic usage
+orb start        # Start OrbStack
+orb status       # Check status
+orb shell        # Open shell in default container
+```
+
+### Github
+
+Web-based platform used for **version control** and collaboration.
+
+```bash
+brew install gh
+```
+
+### Lazy Git
 
 Simple terminal UI for **git** commands, written in Go with the gocui library.
 
@@ -287,20 +193,94 @@ lazygit  # Launch the UI
 # Press 'c' to commit
 ```
 
-#### OrbStack
+### Neo Vim
 
-A fast, light, and simple **Docker** & **Kubernetes** development environment for macOS.
+Highly configurable **text editor** built to enable efficient text editing.
 
 ```bash
-brew install orbstack
-
-# Basic usage
-orb start        # Start OrbStack
-orb status       # Check status
-orb shell        # Open shell in default container
+brew install nvim
 ```
 
-#### Glow
+### Python
+
+High-level, interpreted, and general-purpose **programming language**.
+
+```bash
+brew install python
+```
+
+### PIP
+
+**Package installer** for Python.
+
+```bash
+sudo easy_install pip
+```
+
+### Azure CLI
+
+Command-line tool that provides a set of commands used to **manage Azure resources**.
+
+```bash
+brew update && brew install azure-cli
+```
+
+### TerraForm
+
+Open-source**infrastructure as code** software tool created by HashiCorp.
+
+```bash
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+```
+
+### TopGrade
+
+Command-line utility that **upgrades** all your installed packages.
+
+```bash
+brew install topgrade
+topgrade
+```
+
+### NCDU
+
+**Disk usage** analyzer with an ncurses interface.
+
+```bash
+Brew install NCDU
+```
+
+### Speed Test
+
+Command-line interface for **testing internet bandwidth** using speedtest.net.
+
+```bash
+Brew install speedtest-cli
+```
+
+### PowerShell Upgrade
+
+Task **automation** and configuration management framework from Microsoft.
+
+```bash
+brew upgrade powershell --cask
+```
+
+### Nmap
+
+Network exploration and security auditing tool that **scans networks** for open ports, running services, and live hosts.
+
+```bash
+brew install nmap
+
+# Basic usage
+nmap localhost              # Scan localhost
+nmap 192.168.1.0/24        # Scan entire subnet
+nmap -p 80,443 example.com # Scan specific ports
+```
+
+### Glow
 
 Terminal based **Markdown** renderer designed to work well with CLI tooling.
 
@@ -311,4 +291,22 @@ brew install glow
 glow README.md           # View a markdown file
 glow -p .               # View all markdown files in current directory
 glow -s dark README.md  # Use dark theme
+```
+
+### Matrix Code
+
+Command-line program that shows a **scrolling 'Matrix'** like screen in your terminal.
+
+```bash
+Brew install cmatrix
+cmatrix
+```
+
+### Busyness
+
+**Fake terminal** that emulates the look of a Hollywood hacking scene.
+
+```bash
+brew install hollywood
+docker run --rm -it bcbcarl/hollywood
 ```
