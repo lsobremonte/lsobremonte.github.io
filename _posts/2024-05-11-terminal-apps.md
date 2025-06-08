@@ -2,7 +2,9 @@
 title: Terminal Apps
 description: a list of mac OS terminal apps
 date: 2024-05-11 09:35:00 -0600
-categories: [Apps, Command-tool]
+categories:
+- CMD
+- Terminal Tools
 tags: [macos, brew, cmd]
 image:
   path: /assets/images/covers/cover-terminal-apps.png
