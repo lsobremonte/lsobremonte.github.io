@@ -2,8 +2,8 @@
 title: Terminal Apps
 description: a list of mac OS terminal apps
 date: 2024-05-11 09:35:00 -0600
-categories: [Apps, Command-tool]
-tags: [macos, brew, cmd]
+categories: [Apps,Command-tool]
+tags: [macos, brew,cmd]
 image:
   path: /assets/images/covers/cover-terminal-apps.png
   thumbnail: /assets/images/covers/cover-terminal-apps.png
@@ -37,9 +37,14 @@ media_subpath: /assets/images/
 - [Auto Suggestions](#auto-suggestions)
 - [Neo Vim](#neo-vim)
 - [TopGrade](#topgrade)
-- [Linux Tools](#linux-tools)
 
 ---
+
+### CLI Tools to try
+
+- [ ] [7 Amazing CLI Tools You Need To Try](https://www.youtube.com/watch?v=mmqDYw9C30I&list=WL&index=2&t=573s)
+- [ ] Github Copilot command line
+- [ ] Azure CLI
 
 ### HomeBrew Installer
 
@@ -202,6 +207,8 @@ Brew install Entr
 
 Plugin that **suggests commands** as you type based on history and completions.
 
+
+
 ```bash
 brew install zsh-autosuggestions # Install
 ```
@@ -224,91 +231,4 @@ Command-line utility that **upgrades** all your installed packages.
 
 ```bash
 brew install topgrade
-
-# Basic usage
-topgrade
-```
-
-### Linux Tools
-
-#### Zoxide
-
-A smarter **cd command** that learns your habits and provides quick directory navigation.
-
-```bash
-brew install zoxide
-
-# Add to your shell config (~/.zshrc or ~/.bashrc)
-eval "$(zoxide init zsh)"
-
-# Basic usage
-z foo    # Jump to a directory containing "foo"
-zi       # Interactive selection
-```
-
-#### Nmap
-
-Network exploration and security auditing tool that **scans networks** for open ports, running services, and live hosts.
-
-```bash
-brew install nmap
-
-# Basic usage
-nmap localhost              # Scan localhost
-nmap 192.168.1.0/24        # Scan entire subnet
-nmap -p 80,443 example.com # Scan specific ports
-```
-
-#### Lazy Docker
-
-A simple terminal UI for both **docker** and **docker-compose**, written in Go with the gocui library.
-
-```bash
-brew install lazy-docker
-
-# Basic usage
-lazydocker  # Launch the UI
-# Use arrow keys to navigate
-# Press 'd' to view containers
-# Press 'i' to view images
-```
-
-#### Lazy Git
-
-Simple terminal UI for **git** commands, written in Go with the gocui library.
-
-```bash
-brew install lazygit
-
-# Basic usage
-lazygit  # Launch the UI
-# Use arrow keys to navigate
-# Press 'space' to stage/unstage files
-# Press 'c' to commit
-```
-
-#### OrbStack
-
-A fast, light, and simple **Docker** & **Kubernetes** development environment for macOS.
-
-```bash
-brew install orbstack
-
-# Basic usage
-orb start        # Start OrbStack
-orb status       # Check status
-orb shell        # Open shell in default container
-```
-
-#### Glow
-
-Terminal based **Markdown** renderer designed to work well with CLI tooling.
-
-```bash
-brew install glow
-
-# Basic usage
-glow README.md           # View a markdown file
-glow -p .               # View all markdown files in current directory
-glow -s dark README.md  # Use dark theme
 ```
