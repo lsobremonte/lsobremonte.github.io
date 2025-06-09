@@ -14,7 +14,7 @@ media_subpath: /assets/images/
 ---
 
 **[Links]**
-[Terminal Tools]({% link _posts/2024-05-16-terminal-tools.md %})
+[Terminal Commands]({% link _posts/2024-05-16-terminal-commands.md %})
 
 ## Table of Contents
 
