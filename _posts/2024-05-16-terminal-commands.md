@@ -3,7 +3,7 @@ title: Terminal Commands
 description: Useful Terminal Commands
 date: 2024-05-16 16:00:00 -0600
 categories:
-- CMD
+  - CMD
 
 tags: [iterm2, cmd, terminal]
 image:
@@ -20,8 +20,6 @@ media_subpath: /assets/images/
 
 ![Add plugin](/assets/images/content/terminal-icon.png)
 
-
-
 ## Table of Contents
 
 - [Copy](#copy)
@@ -36,6 +34,8 @@ media_subpath: /assets/images/
 <h2 id="copy">Copy</h2>
 <details open>
 <summary>Copy Commands</summary>
+
+<div markdown="1">
 
 ### Copy All Files
 
@@ -55,6 +55,8 @@ rsync -av --update ~/Library/Mobile\ Documents/com~apple~CloudDocs/ /Volumes/Ext
 rsync -avz -e ssh user@mac1.local:"/source/path/" "/destination/path/"
 ```
 
+</div>
+
 </details>
 
 ---
@@ -62,6 +64,8 @@ rsync -avz -e ssh user@mac1.local:"/source/path/" "/destination/path/"
 <h2 id="delete">Delete</h2>
 <details>
 <summary>Delete Commands</summary>
+
+<div markdown="1">
 
 ### Delete Files with Word "python" and Confirm
 
@@ -87,6 +91,8 @@ find . -type d -name '*2' -empty -delete
 find . -mindepth 1 -delete
 ```
 
+</div>
+
 </details>
 
 ---
@@ -94,6 +100,8 @@ find . -mindepth 1 -delete
 <h2 id="search-and-find">Search and Find</h2>
 <details>
 <summary>Search and Find Commands</summary>
+
+<div markdown="1">
 
 ### List Full Path for File
 
@@ -119,6 +127,8 @@ find . -type f -exec grep --color=always -H "<string>" {} \;
 az vm image list --offer UbuntuServer --publisher Canonical --sku 18.04-LTS --all --output table
 ```
 
+</div>
+
 </details>
 
 ---
@@ -127,11 +137,15 @@ az vm image list --offer UbuntuServer --publisher Canonical --sku 18.04-LTS --al
 <details>
 <summary>Compare Commands</summary>
 
+<div markdown="1">
+
 ### Compare File Trees
 
 ```bash
 rsync -an --out-format="%M %f" file01.old/ file01.new/
 ```
+
+</div>
 
 </details>
 
@@ -140,6 +154,8 @@ rsync -an --out-format="%M %f" file01.old/ file01.new/
 <h2 id="fzf">FZF</h2>
 <details>
 <summary>FZF Commands</summary>
+
+<div markdown="1">
 
 ### Preview with bat
 
@@ -164,6 +180,8 @@ source .zshrc
 cd "$(find . -type d | fzf)"
 ```
 
+</div>
+
 </details>
 
 ---
@@ -171,6 +189,8 @@ cd "$(find . -type d | fzf)"
 <h2 id="networking">Networking</h2>
 <details>
 <summary>Networking Commands</summary>
+
+<div markdown="1">
 
 ### Scan Network
 
@@ -226,5 +246,7 @@ iperf -s -p 6700
 ```bash
 iperf -c 192.168.0.217 -p 6700
 ```
+
+</div>
 
 </details>
