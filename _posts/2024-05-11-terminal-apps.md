@@ -8,7 +8,7 @@ categories:
 
 =======
 - CMD
-
+- Terminal Tools
 tags: [macos, brew, cmd]
 image:
   path: /assets/images/covers/cover-terminal-apps.png
