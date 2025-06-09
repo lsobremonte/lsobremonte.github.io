@@ -4,7 +4,11 @@ description: Azure workload framework guideline
 date: 2025-06-08 09:00:00 -0600
 categories:
   - Cloud
+<<<<<<< HEAD
 
+=======
+  - Microsoft
+>>>>>>> parent of 138f7fe (new content)
 tags:
   - azure
 image:
