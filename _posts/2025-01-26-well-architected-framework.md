@@ -8,8 +8,8 @@ categories:
 tags:
   - azure
 image:
-  path: /assets/images/covers/
-  thumbnail: /assets/images/covers/
+  path: /assets/images/covers/cover-well-architected-framework.png
+  thumbnail: /assets/images/covers/cover-well-architected-framework.png
   alt: Azure Well-Architected Framework
 media_subpath: /assets/images/
 ---
