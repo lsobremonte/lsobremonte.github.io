@@ -4,7 +4,7 @@ description: Tools and Aliases for Terminal
 date: 2024-05-16 16:00:00 -0600
 categories:
 - CMD
-- Terminal Tools
+
 tags: [iterm2, cmd, terminal]
 image:
   path: assets/images/covers/cover-terminal-tools.png
