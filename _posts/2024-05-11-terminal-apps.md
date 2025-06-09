@@ -8,8 +8,7 @@ categories:
 
 =======
 - CMD
-- Terminal Tools
->>>>>>> parent of 138f7fe (new content)
+
 tags: [macos, brew, cmd]
 image:
   path: /assets/images/covers/cover-terminal-apps.png
