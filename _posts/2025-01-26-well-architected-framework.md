@@ -1,15 +1,15 @@
 ---
 title: WAF (Well Architected Framework)
 description: Azure workload framework guideline
-date: 2025-01-26 09:00:00 -0600
+date: 2025-06-08 09:00:00 -0600
 categories:
   - Cloud
-  
+
 tags:
   - azure
 image:
-  path: /assets/images/covers/cover-azure-well-architected-framework.png
-  thumbnail: /assets/images/covers/cover-azure-well-architected-framework.png
+  path: /assets/images/covers/
+  thumbnail: /assets/images/covers/
   alt: Azure Well-Architected Framework
 media_subpath: /assets/images/
 ---

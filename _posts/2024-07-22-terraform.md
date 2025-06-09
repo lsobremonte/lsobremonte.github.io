@@ -12,7 +12,7 @@ image:
 media_subpath: /assets/images/
 ---
 
-## **What is Terraform ?**
+## What is Terraform ?
 
 Terraform is an open-source tool that lets you define and deploy Azure infrastructure using code for repeatable, automated provisioning.
 
@@ -26,7 +26,7 @@ Terraform is an open-source tool that lets you define and deploy Azure infrastru
 
 ---
 
-## **✅ Step 1: Install Terraform (macOS)**
+## ✅ Step 1: Install Terraform (macOS)
 
 ```bash
 brew tap hashicorp/tap
@@ -35,7 +35,7 @@ brew install hashicorp/tap/terraform
 
 ---
 
-## ** Step 2: Authenticate with Azure**
+## Step 2: Authenticate with Azure
 
 ### A. Login to Azure
 
@@ -55,7 +55,7 @@ az account show -o json
 
 ---
 
-## **🧾 Step 3: Create & Assign Service Principal**
+## 🧾 Step 3: Create & Assign Service Principal
 
 ### A. Create a Service Principal
 
@@ -79,7 +79,7 @@ export ARM_SUBSCRIPTION_ID="<SUBSCRIPTION_ID>"
 
 ---
 
-## ** Step 4: Grant Management Group Permissions (Optional for Policy)**
+## Step 4: Grant Management Group Permissions (Optional for Policy)
 
 ### A. Check Current Role Assignment
 
@@ -102,7 +102,7 @@ az role assignment create \
 
 ---
 
-## ** Step 5: View Custom Policies (Optional)**
+## Step 5: View Custom Policies (Optional)
 
 ```bash
 az policy definition list \
@@ -113,7 +113,7 @@ az policy definition list \
 
 ---
 
-## ** Step 6: Core Terraform Commands**
+## Step 6: Core Terraform Commands
 
 | Command                         | Description                                                             |
 | ------------------------------- | ----------------------------------------------------------------------- |
@@ -125,7 +125,7 @@ az policy definition list \
 
 ---
 
-### **Basic Commands**
+### Basic Commands
 
 | Purpose           | Command               |
 | ----------------- | --------------------- |
@@ -136,7 +136,7 @@ az policy definition list \
 
 ---
 
-### **Execution (Plan & Apply)**
+### Execution (Plan & Apply)
 
 | Purpose                 | Command                              |
 | ----------------------- | ------------------------------------ |
@@ -150,7 +150,7 @@ az policy definition list \
 
 ---
 
-### **State Management**
+### State Management
 
 | Purpose            | Command                           |
 | ------------------ | --------------------------------- |
@@ -160,7 +160,7 @@ az policy definition list \
 
 ---
 
-### **Optional Directory Context**
+### Optional Directory Context
 
 Use `-chdir=<path>` if working outside the current directory:
 

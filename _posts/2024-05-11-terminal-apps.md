@@ -3,7 +3,7 @@ title: Terminal Apps
 description: a list of mac OS terminal apps
 date: 2024-05-11 09:35:00 -0600
 categories:
-- CMD
+  - CMD
 
 tags: [macos, brew, cmd]
 image:
@@ -16,7 +16,10 @@ media_subpath: /assets/images/
 **[Links]**
 [Terminal Tools]({% link _posts/2024-05-16-terminal-tools.md %})
 
-## Create Table of Contents
+## Table of Contents
+
+<details>
+<summary>Click to expand</summary>
 
 - [HomeBrew](#homebrew-installer)
 - [FZF](#fzf)
@@ -44,6 +47,7 @@ media_subpath: /assets/images/
 - [Glow](#glow)
 - [Matrix Code](#matrix-code)
 - [Busyness](#busyness)
+</details>
 
 ---
 
@@ -234,81 +238,4 @@ Open-source**infrastructure as code** software tool created by HashiCorp.
 ```bash
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
-```
-
-### TopGrade
-
-Command-line utility that **upgrades** all your installed packages.
-
-```bash
-brew install topgrade
-topgrade
-```
-
-### NCDU
-
-**Disk usage** analyzer with an ncurses interface.
-
-```bash
-Brew install NCDU
-```
-
-### Speed Test
-
-Command-line interface for **testing internet bandwidth** using speedtest.net.
-
-```bash
-Brew install speedtest-cli
-```
-
-### PowerShell Upgrade
-
-Task **automation** and configuration management framework from Microsoft.
-
-```bash
-brew upgrade powershell --cask
-```
-
-### Nmap
-
-Network exploration and security auditing tool that **scans networks** for open ports, running services, and live hosts.
-
-```bash
-brew install nmap
-
-# Basic usage
-nmap localhost              # Scan localhost
-nmap 192.168.1.0/24        # Scan entire subnet
-nmap -p 80,443 example.com # Scan specific ports
-```
-
-### Glow
-
-Terminal based **Markdown** renderer designed to work well with CLI tooling.
-
-```bash
-brew install glow
-
-# Basic usage
-glow README.md           # View a markdown file
-glow -p .               # View all markdown files in current directory
-glow -s dark README.md  # Use dark theme
-```
-
-### Matrix Code
-
-Command-line program that shows a **scrolling 'Matrix'** like screen in your terminal.
-
-```bash
-Brew install cmatrix
-cmatrix
-```
-
-### Busyness
-
-**Fake terminal** that emulates the look of a Hollywood hacking scene.
-
-```bash
-brew install hollywood
-docker run --rm -it bcbcarl/hollywood
 ```
